@@ -1,0 +1,77 @@
+<Bindings>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_Option Line 1;Helios.Base.F15E.UFCTextDisplay;UFC Panel (Pilot)_Option Line 1" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_Option Line 1.set.TextDisplay" />
+      <StaticValue>;;MADKREATOR37'S;</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_Option Line 2;Helios.Base.F15E.UFCTextDisplay;UFC Panel (Pilot)_Option Line 2" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_Option Line 2.set.TextDisplay" />
+      <StaticValue>;F-15E;STRIKE;EAGLE</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_Option Line 3;Helios.Base.F15E.UFCTextDisplay;UFC Panel (Pilot)_Option Line 3" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_Option Line 3.set.TextDisplay" />
+      <StaticValue>;;PROFILE;</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_Option Line 5;Helios.Base.F15E.UFCTextDisplay;UFC Panel (Pilot)_Option Line 5" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_Option Line 5.set.TextDisplay" />
+      <StaticValue>;RELEASE;;_ProfileVersionNumber</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.Pilot Controls.UFC Panel (Pilot) 1.UFC Panel (Pilot)_Option Line 6;Helios.Base.F15E.UFCTextDisplay;UFC Panel (Pilot)_Option Line 6" Name="UFC Panel (Pilot)_UFC Panel (Pilot)_Option Line 6.set.TextDisplay" />
+      <StaticValue>;DATE;;_BuildDate</StaticValue>
+    </Binding>
+	<Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.Console UFC.UFC Panel (WSO).UFC Panel (WSO)_Option Line 1;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 1" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 1.set.TextDisplay" />
+      <StaticValue>;;MADKREATOR37'S;</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.Console UFC.UFC Panel (WSO).UFC Panel (WSO)_Option Line 2;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 2" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 2.set.TextDisplay" />
+      <StaticValue>;F-15E;STRIKE;EAGLE</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.Console UFC.UFC Panel (WSO).UFC Panel (WSO)_Option Line 3;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 3" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 3.set.TextDisplay" />
+      <StaticValue>;;PROFILE;</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.Console UFC.UFC Panel (WSO).UFC Panel (WSO)_Option Line 5;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 5" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 5.set.TextDisplay" />
+      <StaticValue>;RELEASE;;_ProfileVersionNumber</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.WSO Consoles.Console UFC.UFC Panel (WSO).UFC Panel (WSO)_Option Line 6;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 6" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 6.set.TextDisplay" />
+      <StaticValue>;DATE;;_BuildDate</StaticValue>
+    </Binding>
+	<Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.UFC Panel (WSO).UFC Panel (WSO)_Option Line 1;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 1" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 1.set.TextDisplay" />
+      <StaticValue>;;MADKREATOR37'S;</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.UFC Panel (WSO).UFC Panel (WSO)_Option Line 2;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 2" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 2.set.TextDisplay" />
+      <StaticValue>;F-15E;STRIKE;EAGLE</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.UFC Panel (WSO).UFC Panel (WSO)_Option Line 3;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 3" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 3.set.TextDisplay" />
+      <StaticValue>;;PROFILE;</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.UFC Panel (WSO).UFC Panel (WSO)_Option Line 5;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 5" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 5.set.TextDisplay" />
+      <StaticValue>;RELEASE;;_ProfileVersionNumber</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 1.WSO Controls.UFC Panel (WSO).UFC Panel (WSO)_Option Line 6;Helios.Base.F15E.UFCTextDisplay;UFC Panel (WSO)_Option Line 6" Name="UFC Panel (WSO)_UFC Panel (WSO)_Option Line 6.set.TextDisplay" />
+      <StaticValue>;DATE;;_BuildDate</StaticValue>
+    </Binding>
+</Bindings>

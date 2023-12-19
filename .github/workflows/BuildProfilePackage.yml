@@ -1,0 +1,131 @@
+# This workflow runs on commit to build a package which can be
+# installed with Helios 1.6.  If the commit contains the text
+# #patch then the patch level will be bumped.
+
+name: CreateHelios16
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push request events but only for the main branch
+  push:
+    branches: [ main ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  VEHICLE: P-47D
+  VEHICLECOMMONNAME: P-47D Thunderbolt
+  MINHELIOSRELEASE: 1.6.6040.0000
+  PROFILENAME: MadKreator37_P-47D
+  AUTHOR: MadKreator37
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: '0'
+      - name: Set outputs
+        id: vars
+        run: |
+          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "date=$(date +'%d-%b-%Y')" >> $GITHUB_OUTPUT
+          echo "actor=${GITHUB_ACTOR}" >> $GITHUB_OUTPUT
+      - name: Bump version and push 
+        id: bump_tag
+        uses: anothrNick/github-tag-action@1.64.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: HeliosVirtualCockpit
+          DEFAULT_BUMP: 'patch'
+          INITIAL_VERSION: '0.0.0'
+      - name: Check outputs
+        run: |
+          #env
+          echo ${{ env.VEHICLE }} - ${{ env.VEHICLECOMMONNAME }}
+          echo "Commit SHA (short) - " ${{ steps.vars.outputs.sha_short }}
+          echo "New Release - V " ${{ steps.bump_tag.outputs.tag }}
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install diff-match-patch
+          python -m pip install defusedxml
+      - name: execute python script(s) to adjust the profile
+        run: |
+          echo "Insert the additional bindings for the UFC messages"
+          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.AUTHOR }}_P-47D.hpf' '.github/workflows/UFCBindings.xml' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.AUTHOR }}_P-47D.hpf.new'
+          rm '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
+      - run: |
+          mkdir -p output
+          smallTag=$(echo ${{ steps.bump_tag.outputs.tag }} | cut -c1-5)
+          echo 'Small Tag= '$smallTag
+          sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
+          sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
+          sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
+          sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
+          sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.AUTHOR }}_P-47D.hpf' '${{ env.VEHICLE }}/Helios/Profiles/F-15E_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
+          echo Substituting info in the Profile16.json manifest
+          sed -i -- 's/_MinimumReleaseLevel/${{ env.MINHELIOSRELEASE }}/g' Profile16.json
+          sed -i -- 's/_ReleaseDate/'"$(date "+%d %B %Y")"'/g' Profile16.json
+          sed -i -- 's/_ProfileVersionNumber/'"V${{ steps.bump_tag.outputs.tag }}"'/g' Profile16.json
+          sed -i -- 's/_Vehicle/'"${{ env.VEHICLE }}"'/g' Profile16.json
+          sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' Profile16.json
+          sed -i -- 's#_Author#'${{ env.AUTHOR }}'#g' Profile16.json
+          sed -i -- 's/_Vehicle/'"${{ env.VEHICLE }}"'/g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
+          sed -i -- 's#_Author#'${{ env.AUTHOR }}'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
+          sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
+          sed -i -- 's#_ProjectURL#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
+          sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
+          sed -i -- 's#_commit#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"'#g' '${{ env.VEHICLECOMMONNAME }} - About this profile.md'
+      - name: Package Files
+        run: |
+          mv ./${{ env.VEHICLE }}/Helios .
+          zip -r output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16 ./Profile16.json ./LICENSE ./*.md ./Helios/ -x ".git/*" ".github/*" "./Helios/Profiles/*.bak" "./Helios/Profiles/*.hply"
+      - uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }} helios16 profile package
+          path: output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16
+          retention-days: 2
+      - name: Read About file
+        id: getAbout
+        run: |
+          echo "ABOUT<<EOF" >> $GITHUB_ENV
+          echo "$(cat './DOWNLOADING.md')" >> $GITHUB_ENV
+          echo "$(cat './${{ env.VEHICLECOMMONNAME }} - About this profile.md')" >> $GITHUB_ENV
+          echo "$(cat './README.md')" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }}
+          body: ${{ env.ABOUT }}
+          draft: true
+          prerelease: false
+      - name: Upload Release Asset
+        id: upload-release-asset 
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps 
+          asset_path: output/${{ env.AUTHOR }}_${{ env.VEHICLE }}_V${{ steps.bump_tag.outputs.tag }}.helios16
+          asset_name: ${{ env.AUTHOR }} ${{ env.VEHICLECOMMONNAME }} V${{ steps.bump_tag.outputs.tag }} helios16
+          asset_content_type: application/zip
