@@ -4653,28 +4653,6 @@
     {
       "heliosType": "DCS.Common.PushButton",
       "device": "Throttle Quadrant",
-      "name": "NOS Button",
-      "description": "Current state of this button.",
-      "exports": [
-        {
-          "format": "%1d",
-          "isExportedEveryFrame": false,
-          "id": "40"
-        }
-      ],
-      "buttons": [
-        {
-          "deviceId": "3",
-          "pushId": "3001",
-          "pushValue": "1",
-          "releaseId": "3001",
-          "releaseValue": "0"
-        }
-      ]
-    },
- {
-      "heliosType": "DCS.Common.PushButton",
-      "device": "Throttle Quadrant",
       "name": "NOS Push Button",
       "description": "Current state of this button.",
       "exports": [
