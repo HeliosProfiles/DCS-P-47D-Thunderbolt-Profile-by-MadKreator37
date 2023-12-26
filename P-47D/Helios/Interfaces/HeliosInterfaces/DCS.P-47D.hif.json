@@ -926,7 +926,7 @@
       "description": "TODO: assign units, set calibration points, and write description",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "180"
         }
       ],
@@ -978,7 +978,7 @@
       "description": "TODO: assign units, set calibration points, and write description",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "38"
         }
       ],
@@ -1005,7 +1005,7 @@
       "description": "TODO: assign units, set calibration points, and write description",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "484"
         }
       ],
@@ -1032,7 +1032,7 @@
       "description": "TODO: assign units, set calibration points, and write description",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "489"
         }
       ],
@@ -1109,7 +1109,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "161"
         }
       ],
@@ -1201,7 +1201,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "137"
         }
       ],
@@ -1223,7 +1223,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "138"
         }
       ],
@@ -1450,7 +1450,7 @@
       "description": "Indicated Pressure",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "10"
         }
       ],
@@ -1477,7 +1477,7 @@
       "description": "Carb Temp in Degrees Celsius",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "102"
         }
       ],
@@ -1520,7 +1520,7 @@
       "description": "Turbo RPM in Hundreds",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "103"
         }
       ],
@@ -1547,7 +1547,7 @@
       "description": "Amp Draw",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "104"
         }
       ],
@@ -1574,7 +1574,7 @@
       "description": "Vertical Movement of Compass in Degrees",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "106"
         }
       ],
@@ -1601,7 +1601,7 @@
       "description": "Horizontal Movement of Compass in Degrees",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "107"
         }
       ],
@@ -1628,7 +1628,7 @@
       "description": "Rotational Movement of Compass in Degrees",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "105"
         }
       ],
@@ -1655,7 +1655,7 @@
       "description": "Pressure",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "108"
         }
       ],
@@ -1682,7 +1682,7 @@
       "description": "Main Tank Fuel Remaining in Gallons",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "109"
         }
       ],
@@ -1804,7 +1804,7 @@
       "description": "Aux Fuel Remaining in Gallons",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "110"
         }
       ],
@@ -1847,7 +1847,7 @@
       "description": "Cylinder Head Temp in Degrees ",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "111"
         }
       ],
@@ -1874,7 +1874,7 @@
       "description": "Heading Direction Indicator in Degrees",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "12"
         }
       ],
@@ -1901,7 +1901,7 @@
       "description": "Horizon Line Adjustment",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "136"
         }
       ],
@@ -1911,11 +1911,11 @@
         "points": [
           {
             "value": -1,
-            "mappedValue": -1
+            "mappedValue": -0.5
           },
           {
             "value": 1,
-            "mappedValue": 1
+            "mappedValue": 0.5
           }
         ],
         "precision": 4
@@ -1928,7 +1928,7 @@
       "description": "Bank Angle in Degrees",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "14"
         }
       ],
@@ -1955,7 +1955,7 @@
       "description": "Pitch Angle in Degrees Limited Movement",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "15"
         }
       ],
@@ -1982,7 +1982,7 @@
       "description": "Altitude reference Pointer x10 ft",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "171"
         }
       ],
@@ -2009,7 +2009,7 @@
       "description": "Altitude Reference Pointer x100ft",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "172"
         }
       ],
@@ -2036,7 +2036,7 @@
       "description": "Acceleration in G-Force",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "175"
         }
       ],
@@ -2063,7 +2063,7 @@
       "description": "Acceleration Minimum in G-Force",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "177"
         }
       ],
@@ -2090,7 +2090,7 @@
       "description": "Acceleration Maximum in G-Force",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "178"
         }
       ],
@@ -2117,7 +2117,7 @@
       "description": "Sideslip Indication From Center",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "183"
         }
       ],
@@ -2171,7 +2171,7 @@
       "description": "TODO: assign units, set calibration points, and write description",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "21"
         }
       ],
@@ -2198,7 +2198,7 @@
       "description": "Propellor RPM",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "23"
         }
       ],
@@ -2225,7 +2225,7 @@
       "description": "Altitude ASL in Feet x100",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "24"
         }
       ],
@@ -2252,7 +2252,7 @@
       "description": "Altitude ASL in Feet x100",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "25"
         }
       ],
@@ -2279,7 +2279,7 @@
       "description": "Altitude ASL x1000",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "26"
         }
       ],
@@ -2306,7 +2306,7 @@
       "description": "Turn Indicator",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "27"
         }
       ],
@@ -2333,7 +2333,7 @@
       "description": "Sideslip Indication From Center",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "28"
         }
       ],
@@ -2360,7 +2360,7 @@
       "description": "Rate of Climb",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "29"
         }
       ],
@@ -2443,7 +2443,7 @@
       "description": "Oil Temperature in Celsius",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "30"
         }
       ],
@@ -2506,7 +2506,7 @@
       "description": "Oil Pressure in PSI",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "31"
         }
       ],
@@ -2533,7 +2533,7 @@
       "description": "Fuel Pressure in PSI",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "32"
         }
       ],
@@ -2587,7 +2587,7 @@
       "description": "Remaining Presure in PSI",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "34"
         }
       ],
@@ -2614,7 +2614,7 @@
       "description": "Hours Hand",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "4"
         }
       ],
@@ -2641,7 +2641,7 @@
       "description": "Minutes Hand",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "5"
         }
       ],
@@ -2668,7 +2668,7 @@
       "description": "seconds Hand",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "6"
         }
       ],
@@ -2695,7 +2695,7 @@
       "description": "Hydraulic Pressure in PSI",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "78"
         }
       ],
@@ -2722,7 +2722,7 @@
       "description": "Intercooler Position Marker",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "89"
         }
       ],
@@ -2749,7 +2749,7 @@
       "description": "Vaccum",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "9"
         }
       ],
@@ -2776,7 +2776,7 @@
       "description": "Oil Cooler Flap Marker",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "90"
         }
       ],
@@ -2803,7 +2803,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "35"
         }
       ],
@@ -2825,7 +2825,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "36"
         }
       ],
@@ -2927,7 +2927,7 @@
       "description": "Current position of this rotary encoder knob.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "13"
         }
       ],
@@ -2976,7 +2976,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "17"
         }
       ],
@@ -3045,7 +3045,7 @@
       "description": "Current position of this rotary encoder knob.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "22"
         }
       ],
@@ -3143,7 +3143,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "65"
         }
       ],
@@ -3200,7 +3200,7 @@
       "description": "Current position of this rotary encoder knob.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "7"
         }
       ],
@@ -3362,7 +3362,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "170"
         }
       ],
@@ -3384,7 +3384,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "194"
         }
       ],
@@ -3406,7 +3406,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "195"
         }
       ],
@@ -3628,7 +3628,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "61"
         }
       ],
@@ -3705,7 +3705,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "130"
         }
       ],
@@ -3777,7 +3777,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "166"
         }
       ],
@@ -4265,7 +4265,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "77"
         }
       ],
@@ -4591,7 +4591,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "168"
         }
       ],
@@ -4748,7 +4748,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "46"
         }
       ],
@@ -4770,7 +4770,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "47"
         }
       ],
@@ -4814,7 +4814,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "57"
         }
       ],
@@ -4836,7 +4836,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "58"
         }
       ],
@@ -4858,7 +4858,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "91"
         }
       ],
@@ -4880,7 +4880,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "92"
         }
       ],
@@ -4902,7 +4902,7 @@
       "description": "Current value of this potentiometer.",
       "exports": [
         {
-          "format": "%.4f",
+          "format": "%.3f",
           "id": "93"
         }
       ],
