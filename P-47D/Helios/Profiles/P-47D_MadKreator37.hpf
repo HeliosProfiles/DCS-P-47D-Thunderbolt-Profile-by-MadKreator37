@@ -4938,8 +4938,8 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Panel" Name="Oil_Intercooler Shutter Panel" SnapTarget="True" Locked="False">
-              <Location>130,0</Location>
+            <Control TypeIdentifier="Helios.Panel" Name="Oil_Intercooler Shutter Panel" SnapTarget="True" Locked="True">
+              <Location>146,43</Location>
               <Size>301,186</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -5050,7 +5050,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Undercarriage panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel" Name="Undercarriage panel" SnapTarget="True" Locked="True">
               <Location>300,759</Location>
               <Size>157,237</Size>
               <Hidden>False</Hidden>
@@ -5075,7 +5075,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Flap Panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel" Name="Flap Panel" SnapTarget="True" Locked="True">
               <Location>24,752</Location>
               <Size>226,244</Size>
               <Hidden>False</Hidden>
@@ -5110,8 +5110,8 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Fuel Main Panel" SnapTarget="True" Locked="False">
-              <Location>70,564</Location>
+            <Control TypeIdentifier="Helios.Panel" Name="Fuel Main Panel" SnapTarget="True" Locked="True">
+              <Location>33,564</Location>
               <Size>137,175</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -5150,8 +5150,8 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Oil Int Can Sw Panel" SnapTarget="True" Locked="False">
-              <Location>99,186</Location>
+            <Control TypeIdentifier="Helios.Panel" Name="Oil Int Can Sw Panel" SnapTarget="True" Locked="True">
+              <Location>59,233</Location>
               <Size>332,159</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -5214,8 +5214,8 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Fuel Droptank Panel" SnapTarget="True" Locked="False">
-              <Location>250,564</Location>
+            <Control TypeIdentifier="Helios.Panel" Name="Fuel Droptank Panel" SnapTarget="True" Locked="True">
+              <Location>6,379</Location>
               <Size>181,185</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -5253,8 +5253,8 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Comp Flaps Panel" SnapTarget="True" Locked="False">
-              <Location>0,1</Location>
+            <Control TypeIdentifier="Helios.Panel" Name="Comp Flaps Panel" SnapTarget="True" Locked="True">
+              <Location>7,47</Location>
               <Size>125,160</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -5317,7 +5317,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Tail Wheel Lock Panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel" Name="Tail Wheel Lock Panel" SnapTarget="True" Locked="True">
               <Location>562,762</Location>
               <Size>105,210</Size>
               <Hidden>False</Hidden>
@@ -5342,8 +5342,8 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Cowl Prime Panel" SnapTarget="True" Locked="False">
-              <Location>457,1</Location>
+            <Control TypeIdentifier="Helios.Panel" Name="Cowl Prime Panel" SnapTarget="True" Locked="True">
+              <Location>457,28</Location>
               <Size>240,260</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -5408,7 +5408,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Throttle Quad" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel" Name="Throttle Quad" SnapTarget="True" Locked="True">
               <Location>457,308</Location>
               <Size>239,454</Size>
               <Hidden>False</Hidden>
@@ -5732,6 +5732,172 @@
                 </Control>
               </Children>
             </Control>
+            <Control TypeIdentifier="Helios.Panel" Name="Trimmer Panel" SnapTarget="True" Locked="True">
+              <Location>185,408</Location>
+              <Size>285,325</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <Children>
+                <Control TypeIdentifier="Helios.Base.Image" Name="base" SnapTarget="False" Locked="True">
+                  <Image>MadKreator37\P-47D\Bezels_And_Faces\Trimmer_Base.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>11,0</Location>
+                  <Size>260,173</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Ail trim knob" SnapTarget="True" Locked="True">
+                  <Location>174,87</Location>
+                  <Size>91,91</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>MadKreator37\P-47D\Button_Switches_Knobs\Trim_Knob_Aileron.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.01</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>-1</MinValue>
+                  <InitialRotation>0</InitialRotation>
+                  <RotationTravel>360</RotationTravel>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>1</Sensitivity>
+                  </ClickType>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Rud trim knob " SnapTarget="True" Locked="True">
+                  <Location>6,87</Location>
+                  <Size>91,91</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>MadKreator37\P-47D\Button_Switches_Knobs\Trim_Knob_Rudder.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.01</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>-1</MinValue>
+                  <InitialRotation>0</InitialRotation>
+                  <RotationTravel>360</RotationTravel>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>1</Sensitivity>
+                  </ClickType>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Elevator trim wheel" SnapTarget="True" Locked="True">
+                  <Location>66,183</Location>
+                  <Size>136,136</Size>
+                  <Hidden>False</Hidden>
+                  <KnobImage>MadKreator37\P-47D\Button_Switches_Knobs\Trim_Knob_Elevator.png</KnobImage>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.01</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>-1</MinValue>
+                  <InitialRotation>0</InitialRotation>
+                  <RotationTravel>360</RotationTravel>
+                  <ClickType>
+                    <Type>Swipe</Type>
+                    <Sensitivity>1</Sensitivity>
+                  </ClickType>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.CustomTape" Name="Rud trim ind" SnapTarget="True" Locked="True">
+                  <Location>100,95</Location>
+                  <Size>50,18</Size>
+                  <Rotation>CCW</Rotation>
+                  <Hidden>False</Hidden>
+                  <TapeImage>MadKreator37\P-47D\Needles_And_Pointers\Trim_Pointer.png</TapeImage>
+                  <OffFlagImage />
+                  <ForegroundImage />
+                  <BackgroundImage />
+                  <Tape_PosX>0</Tape_PosX>
+                  <Tape_PosY>0</Tape_PosY>
+                  <Tape_Width>35</Tape_Width>
+                  <Tape_Height>100</Tape_Height>
+                  <Tape_CenterX>100</Tape_CenterX>
+                  <Tape_CenterY>100</Tape_CenterY>
+                  <OffFlag_PosX>30</OffFlag_PosX>
+                  <OffFlag_PosY>30</OffFlag_PosY>
+                  <OffFlag_Width>50</OffFlag_Width>
+                  <OffFlag_Height>50</OffFlag_Height>
+                  <OffFlag_IsHidden>False</OffFlag_IsHidden>
+                  <MinHorizontal>158</MinHorizontal>
+                  <HorizontalTravel>8</HorizontalTravel>
+                  <MinVertical>0</MinVertical>
+                  <VerticalTravel>0</VerticalTravel>
+                  <MinRotation>0</MinRotation>
+                  <RotationTravel>0</RotationTravel>
+                  <InitialHorizontal>24</InitialHorizontal>
+                  <InitialVertical>19</InitialVertical>
+                  <InitialRotation>0</InitialRotation>
+                  <MinInputHorizontal>-1</MinInputHorizontal>
+                  <MaxInputHorizontal>1</MaxInputHorizontal>
+                  <MinInputVertical>-1</MinInputVertical>
+                  <MaxInputVertical>1</MaxInputVertical>
+                  <MinInputRotation>-1</MinInputRotation>
+                  <MaxInputRotation>1</MaxInputRotation>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.CustomTape" Name="Ailr trim ind" SnapTarget="True" Locked="True">
+                  <Location>151,95</Location>
+                  <Size>50,18</Size>
+                  <Rotation>CW</Rotation>
+                  <Hidden>False</Hidden>
+                  <TapeImage>MadKreator37\P-47D\Needles_And_Pointers\Trim_Pointer.png</TapeImage>
+                  <OffFlagImage />
+                  <ForegroundImage />
+                  <BackgroundImage />
+                  <Tape_PosX>0</Tape_PosX>
+                  <Tape_PosY>0</Tape_PosY>
+                  <Tape_Width>35</Tape_Width>
+                  <Tape_Height>100</Tape_Height>
+                  <Tape_CenterX>100</Tape_CenterX>
+                  <Tape_CenterY>100</Tape_CenterY>
+                  <OffFlag_PosX>30</OffFlag_PosX>
+                  <OffFlag_PosY>30</OffFlag_PosY>
+                  <OffFlag_Width>50</OffFlag_Width>
+                  <OffFlag_Height>50</OffFlag_Height>
+                  <OffFlag_IsHidden>False</OffFlag_IsHidden>
+                  <MinHorizontal>153</MinHorizontal>
+                  <HorizontalTravel>3</HorizontalTravel>
+                  <MinVertical>0</MinVertical>
+                  <VerticalTravel>0</VerticalTravel>
+                  <MinRotation>0</MinRotation>
+                  <RotationTravel>0</RotationTravel>
+                  <InitialHorizontal>76</InitialHorizontal>
+                  <InitialVertical>19</InitialVertical>
+                  <InitialRotation>0</InitialRotation>
+                  <MinInputHorizontal>-1</MinInputHorizontal>
+                  <MaxInputHorizontal>1</MaxInputHorizontal>
+                  <MinInputVertical>-1</MinInputVertical>
+                  <MaxInputVertical>1</MaxInputVertical>
+                  <MinInputRotation>-1</MinInputRotation>
+                  <MaxInputRotation>1</MaxInputRotation>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Elev trim ind" SnapTarget="True" Locked="True">
+                  <Location>97,70</Location>
+                  <Size>75,105</Size>
+                  <Hidden>False</Hidden>
+                  <BGPlateImage>MadKreator37\P-47D\Transparent_Image.png</BGPlateImage>
+                  <KnobImage>MadKreator37\P-47D\Needles_And_Pointers\Trim_Pointer.png</KnobImage>
+                  <Needle_Scale>0.114525139664804</Needle_Scale>
+                  <Needle_PosX>0.4366</Needle_PosX>
+                  <Needle_PosY>0.0140670391061441</Needle_PosY>
+                  <Needle_PivotX>0.5584</Needle_PivotX>
+                  <Needle_PivotY>1</Needle_PivotY>
+                  <InitialValue>0</InitialValue>
+                  <StepValue>0.005</StepValue>
+                  <MaxValue>1</MaxValue>
+                  <MinValue>-1</MinValue>
+                  <InitialRotation>344.736</InitialRotation>
+                  <RotationTravel>29.952</RotationTravel>
+                  <Children />
+                </Control>
+              </Children>
+            </Control>
           </Children>
         </Control>
         <Control TypeIdentifier="Helios.Base.Text" Name="Panel Reset Label" SnapTarget="True" Locked="False">
@@ -6038,38 +6204,38 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="F10 base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1485,840</Location>
-          <Size>58,59</Size>
+          <Size>58,58</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="F1 BASE" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1437,840</Location>
-          <Size>58,59</Size>
+          <Size>58,58</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="Esc base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1485,891</Location>
-          <Size>58,59</Size>
+          <Size>58,58</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="F6 base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1437,891</Location>
-          <Size>58,59</Size>
+          <Size>58,58</Size>
           <Hidden>False</Hidden>
           <Children />
         </Control>
@@ -6078,8 +6244,8 @@
           <Size>37,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FF69A9C5</Color>
             <Font>
@@ -6106,8 +6272,8 @@
           <Size>37,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FF69A9C5</Color>
             <Font>
@@ -6134,8 +6300,8 @@
           <Size>37,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FF69A9C5</Color>
             <Font>
@@ -6158,7 +6324,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="Briefing base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1433,944</Location>
@@ -6171,8 +6337,8 @@
           <Size>37,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FF69A9C5</Color>
             <Font>
@@ -6199,8 +6365,8 @@
           <Size>80,23</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FFB5D5D5</Color>
             <Font>
@@ -6223,7 +6389,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="Rearm base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1433,979</Location>
@@ -6236,8 +6402,8 @@
           <Size>80,23</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FFB5D5D5</Color>
             <Font>
@@ -6260,7 +6426,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1433,1015</Location>
@@ -6273,8 +6439,8 @@
           <Size>80,32</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FFB5D5D5</Color>
             <Font>
@@ -6297,7 +6463,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1539,1015</Location>
@@ -6310,8 +6476,8 @@
           <Size>25,32</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FFB5D5D5</Color>
             <Font>
@@ -6334,7 +6500,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1573,1015</Location>
@@ -6347,8 +6513,8 @@
           <Size>25,32</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FFB5D5D5</Color>
             <Font>
@@ -6371,7 +6537,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="False">
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Base.png</Image>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
           <Location>1606,1015</Location>
@@ -6384,8 +6550,8 @@
           <Size>48,32</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
-          <Image>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/F-15E/Buttons_And_Switches/Generic_Button_Pressed.png</PushedImage>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
           <Text>
             <Color>#FFB5D5D5</Color>
             <Font>
@@ -6405,6 +6571,68 @@
             <Text>MARK</Text>
             <ScalingMode>None</ScalingMode>
           </Text>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.Image" Name="Control center show base" SnapTarget="False" Locked="False">
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
+          <Alignment>Stretched</Alignment>
+          <CornerRadius>0</CornerRadius>
+          <Location>267,1009</Location>
+          <Size>118,50</Size>
+          <Hidden>False</Hidden>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Control Center Show Button" SnapTarget="True" Locked="False">
+          <Location>284,1015</Location>
+          <Size>80,32</Size>
+          <Hidden>False</Hidden>
+          <Type>Momentary</Type>
+          <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Norm.png</Image>
+          <PushedImage>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Pressed.png</PushedImage>
+          <Text>
+            <Color>#FFB5D5D5</Color>
+            <Font>
+              <FontFamily>Franklin Gothic</FontFamily>
+              <FontStyle>Normal</FontStyle>
+              <FontWeight>Normal</FontWeight>
+              <FontSize>16</FontSize>
+              <HorizontalAlignment>Center</HorizontalAlignment>
+              <VerticalAlignment>Center</VerticalAlignment>
+              <Padding>
+                <Left>0</Left>
+                <Top>0</Top>
+                <Right>0</Right>
+                <Bottom>0</Bottom>
+              </Padding>
+            </Font>
+            <Text>SHOW</Text>
+            <ScalingMode>None</ScalingMode>
+          </Text>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.Text" Name="Weapons Label 1" SnapTarget="True" Locked="False">
+          <FillBackground>False</FillBackground>
+          <BackgroundColor>#FF1E1E1E</BackgroundColor>
+          <FontColor>#FF49778A</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>SemiBold</FontWeight>
+            <FontSize>16.551724137931</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>CONTROL CENTER</Text>
+          <ScalingMode>Height</ScalingMode>
+          <Location>250,1050</Location>
+          <Size>147,30</Size>
+          <Hidden>False</Hidden>
           <Children />
         </Control>
       </Children>
@@ -7397,6 +7625,36 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Boost Lever Lock.changed" />
       <Action Target="Visual;Monitor 1.Flight Panel.Throttle Quad.Boost Lock Button;Helios.Base.PushButton;Boost Lock Button" Name="set.physical state" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Aileron Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Ail trim knob;Helios.Base.Potentiometer;Ail trim knob" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Rudder Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Rud trim knob ;Helios.Base.Potentiometer;Rud trim knob " Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Elevator Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Elevator trim wheel;Helios.Base.Potentiometer;Elevator trim wheel" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Rudder Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Rud trim ind;Helios.Base.CustomTape;Rud trim ind" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Aileron Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Ailr trim ind;Helios.Base.CustomTape;Ailr trim ind" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Elevator Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Elev trim ind;Helios.Base.CustomGauge;Elev trim ind" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -8555,6 +8813,36 @@
       <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Flight Panel.Trimmer Panel.Ail trim knob;Helios.Base.Potentiometer;Ail trim knob" Name="value.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Ailr trim ind;Helios.Base.CustomTape;Ailr trim ind" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Flight Panel.Trimmer Panel.Ail trim knob;Helios.Base.Potentiometer;Ail trim knob" Name="value.changed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.set.Aileron Trim Wheel" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Flight Panel.Trimmer Panel.Rud trim knob ;Helios.Base.Potentiometer;Rud trim knob " Name="value.changed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.set.Rudder Trim Wheel" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Flight Panel.Trimmer Panel.Rud trim knob ;Helios.Base.Potentiometer;Rud trim knob " Name="value.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Rud trim ind;Helios.Base.CustomTape;Rud trim ind" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Flight Panel.Trimmer Panel.Elevator trim wheel;Helios.Base.Potentiometer;Elevator trim wheel" Name="value.changed" />
+      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.set.Elevator Trim Wheel" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Flight Panel.Trimmer Panel.Elevator trim wheel;Helios.Base.Potentiometer;Elevator trim wheel" Name="value.changed" />
+      <Action Target="Visual;Monitor 1.Flight Panel.Trimmer Panel.Elev trim ind;Helios.Base.CustomGauge;Elev trim ind" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Weapon -28 SW;Helios.Base.ToggleSwitch;Weapon -28 SW" Name="position one.entered" />
       <Action Target="Visual;Monitor 1.-28 Weapons Panel;Helios.Panel;-28 Weapons Panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
@@ -8883,6 +9171,11 @@
       <Trigger Source="Visual;Monitor 1.Markpoint Button;Helios.Base.PushButton;Markpoint Button" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
       <StaticValue>{RCONTROL}k</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Control Center Show Button;Helios.Base.PushButton;Control Center Show Button" Name="released" />
+      <Action Target="Interface;;Helios.Base.ProfileInterface;Profile" Name="show control center" />
+      <StaticValue />
     </Binding>
   </Bindings>
 </HeliosProfile>
