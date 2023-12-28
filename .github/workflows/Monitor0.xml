@@ -1,0 +1,203 @@
+  <Monitors>
+    <Monitor>
+      <Location>0,0</Location>
+      <Size>1920,1080</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>True</AlwaysOnTop>
+      <Background />
+      <Children />  
+    </Monitor>
+	<Monitor>
+      <Location>1920,0</Location>
+      <Size>1920,1080</Size>
+      <Hidden>False</Hidden>
+      <Orientation>DMDO_DEFAULT</Orientation>
+      <AlwaysOnTop>True</AlwaysOnTop>
+      <Background />
+      <Children>
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="AH64D Apache LEFT_MFCD_CPG" SnapTarget="True" Locked="False">
+          <FillBackground>True</FillBackground>
+          <BackgroundColor>#809545D8</BackgroundColor>
+          <FontColor>#FFFFFFFF</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>AH_64D_LEFT_MFCD_CPG</Text>
+          <Location>685,550</Location>
+          <Size>398,398</Size>
+          <Hidden>False</Hidden>
+          <ViewportName>AH_64D_LEFT_MFCD_CPG</ViewportName>
+          <RequiresPatches>True</RequiresPatches>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="AH64D Apache LEFT_MFCD_PLT" SnapTarget="True" Locked="False">
+          <FillBackground>True</FillBackground>
+          <BackgroundColor>#809545D8</BackgroundColor>
+          <FontColor>#FFFFFFFF</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>AH_64D_LEFT_MFCD_PLT</Text>
+          <Location>647,0</Location>
+          <Size>361,362</Size>
+          <Hidden>False</Hidden>
+          <ViewportName>AH_64D_LEFT_MFCD_PLT</ViewportName>
+          <RequiresPatches>True</RequiresPatches>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="AH64D Apache RIGHT_MFCD_CPG" SnapTarget="True" Locked="False">
+          <FillBackground>True</FillBackground>
+          <BackgroundColor>#809545D8</BackgroundColor>
+          <FontColor>#FFFFFFFF</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>AH_64D_RIGHT_MFCD_CPG</Text>
+          <Location>1083,550</Location>
+          <Size>398,398</Size>
+          <Hidden>False</Hidden>
+          <ViewportName>AH_64D_RIGHT_MFCD_CPG</ViewportName>
+          <RequiresPatches>True</RequiresPatches>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="AH64D Apache RIGHT_MFCD_PLT" SnapTarget="True" Locked="False">
+          <FillBackground>True</FillBackground>
+          <BackgroundColor>#809545D8</BackgroundColor>
+          <FontColor>#FFFFFFFF</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>AH_64D_RIGHT_MFCD_PLT</Text>
+          <Location>1008,0</Location>
+          <Size>361,362</Size>
+          <Hidden>False</Hidden>
+          <ViewportName>AH_64D_RIGHT_MFCD_PLT</ViewportName>
+          <RequiresPatches>True</RequiresPatches>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="AH64D Apache TEDAC" SnapTarget="True" Locked="False">
+          <FillBackground>True</FillBackground>
+          <BackgroundColor>#809545D8</BackgroundColor>
+          <FontColor>#FFFFFFFF</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>AH_64D_TEDAC</Text>
+          <Location>1369,0</Location>
+          <Size>550,550</Size>
+          <Hidden>False</Hidden>
+          <ViewportName>AH_64D_TEDAC</ViewportName>
+          <RequiresPatches>True</RequiresPatches>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="AH64D Apache EUFD_PLT" SnapTarget="True" Locked="False">
+          <FillBackground>True</FillBackground>
+          <BackgroundColor>#809545D8</BackgroundColor>
+          <FontColor>#FFFFFFFF</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>AH_64D_EUFD_PLT</Text>
+          <Location>1481,550</Location>
+          <Size>437,214</Size>
+          <Hidden>False</Hidden>
+          <ViewportName>AH_64D_EUFD_PLT</ViewportName>
+          <RequiresPatches>True</RequiresPatches>
+          <Children />
+        </Control>
+        <Control TypeIdentifier="Helios.Base.ViewportExtent" Name="AH64D Apache EUFD_CPG" SnapTarget="True" Locked="False">
+          <FillBackground>True</FillBackground>
+          <BackgroundColor>#809545D8</BackgroundColor>
+          <FontColor>#FFFFFFFF</FontColor>
+          <Font>
+            <FontFamily>Franklin Gothic</FontFamily>
+            <FontStyle>Normal</FontStyle>
+            <FontWeight>Normal</FontWeight>
+            <FontSize>12</FontSize>
+            <HorizontalAlignment>Center</HorizontalAlignment>
+            <VerticalAlignment>Center</VerticalAlignment>
+            <Padding>
+              <Left>0</Left>
+              <Top>0</Top>
+              <Right>0</Right>
+              <Bottom>0</Bottom>
+            </Padding>
+          </Font>
+          <Text>AH_64D_EUFD_CPG</Text>
+          <Location>1555,764</Location>
+          <Size>364,176</Size>
+          <Hidden>False</Hidden>
+          <ViewportName>AH_64D_EUFD_CPG</ViewportName>
+          <RequiresPatches>True</RequiresPatches>
+          <Children />
+        </Control>
+      </Children>
+    </Monitor>
+  </Monitors>

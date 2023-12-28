@@ -15,8 +15,8 @@ on:
 env:
   VEHICLE: P-47D
   VEHICLECOMMONNAME: P-47D Thunderbolt
-  MINHELIOSRELEASE: 1.6.6040.0000
-  PROFILENAME: MadKreator37_P-47D
+  MINHELIOSRELEASE: 1.6.6060.0000
+  PROFILENAME: P-47D_MadKreator37
   AUTHOR: MadKreator37
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -64,20 +64,21 @@ jobs:
           python -m pip install defusedxml
       - name: execute python script(s) to adjust the profile
         run: |
-          echo "Insert the additional bindings for the UFC messages"
-          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/${{ env.AUTHOR }}_P-47D.hpf' '.github/workflows/UFCBindings.xml' '${{ env.VEHICLE }}/Helios/Profiles/${{ env.AUTHOR }}_P-47D.hpf.new'
-          rm '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
-          mv '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
+          echo "Adjust the profile internals"
+          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '.github/workflows/internalAdjustments.xml' '${{ env.VEHICLE }}/Helios/Profiles/P-47D${{ env.AUTHOR }}_.hpf.new'
+          python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '.github/workflows/Monitor0.xml' '${{ env.VEHICLE }}/Helios/Profiles/P-47D${{ env.AUTHOR }}_.hpf.new'
+          rm '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
       - run: |
           mkdir -p output
           smallTag=$(echo ${{ steps.bump_tag.outputs.tag }} | cut -c1-5)
           echo 'Small Tag= '$smallTag
-          sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
-          sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
-          sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
-          sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
-          sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/'${{ env.AUTHOR }}'_P-47D.hpf'
-          mv '${{ env.VEHICLE }}/Helios/Profiles/${{ env.AUTHOR }}_P-47D.hpf' '${{ env.VEHICLE }}/Helios/Profiles/F-15E_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
+          sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
+          mv '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
           echo Substituting info in the Profile16.json manifest
           sed -i -- 's/_MinimumReleaseLevel/${{ env.MINHELIOSRELEASE }}/g' Profile16.json
           sed -i -- 's/_ReleaseDate/'"$(date "+%d %B %Y")"'/g' Profile16.json
