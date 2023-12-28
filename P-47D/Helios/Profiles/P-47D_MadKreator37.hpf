@@ -6099,15 +6099,6 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Panel reset SW -28" SnapTarget="True" Locked="True">
-          <Location>934,220</Location>
-          <Size>45,45</Size>
-          <Hidden>True</Hidden>
-          <Type>Momentary</Type>
-          <Image>MadKreator37/P-47D/Button_Switches_Knobs\Gen_Button_Norm.png</Image>
-          <PushedImage>MadKreator37/P-47D/Button_Switches_Knobs\Gen_Button_Pushed.png</PushedImage>
-          <Children />
-        </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="Panel reset SW -30-40" SnapTarget="True" Locked="True">
           <Location>934,220</Location>
           <Size>45,45</Size>
@@ -8782,96 +8773,6 @@
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Misc Panel;Helios.Panel;Misc Panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Accessory Panel;Helios.Panel;Accessory Panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Electrical Light Panel;Helios.Panel;Electrical Light Panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Radio Panel;Helios.Panel;Radio Panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.-28 Weapons Panel;Helios.Panel;-28 Weapons Panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Weapon Control Panel -30;Helios.Panel;Weapon Control Panel -30" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Weapon Control Panel -40;Helios.Panel;Weapon Control Panel -40" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Weapon Arm Panel -40;Helios.Panel;Weapon Arm Panel -40" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Flight Panel;Helios.Panel;Flight Panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Weapon -28 SW;Helios.Base.ToggleSwitch;Weapon -28 SW" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Elec Light Sw;Helios.Base.ToggleSwitch;Elec Light Sw" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Misc  SW;Helios.Base.ToggleSwitch;Misc  SW" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Radio SW;Helios.Base.ToggleSwitch;Radio SW" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Start  Switch;Helios.Base.ToggleSwitch;Start  Switch" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Flight Sw;Helios.Base.ToggleSwitch;Flight Sw" Name="set.position" />
-      <StaticValue>2</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="pushed" />
-      <Action Target="Visual;Monitor 2.Oxy Hyd Panel;Helios.Panel;Oxy Hyd Panel" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Panel reset SW -30-40;Helios.Base.PushButton;Panel reset SW -30-40" Name="pushed" />
       <Action Target="Visual;Monitor 2.Misc Panel;Helios.Panel;Misc Panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
@@ -9049,26 +8950,6 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
       <Action Target="Visual;Monitor 2.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="set.hidden" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
-      <Action Target="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="set.hidden" />
-      <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.exited" />
-      <Action Target="Visual;Monitor 2.Panel reset SW -28;Helios.Base.PushButton;Panel reset SW -28" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
-      <Action Target="Visual;Monitor 2.Panel reset SW -30-40;Helios.Base.PushButton;Panel reset SW -30-40" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.exited" />
-      <Action Target="Visual;Monitor 2.Panel reset SW -30-40;Helios.Base.PushButton;Panel reset SW -30-40" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
