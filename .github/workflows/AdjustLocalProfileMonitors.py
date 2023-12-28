@@ -32,7 +32,7 @@ i = 0
 for el in monitors.iter("Monitor"):
     i += 1
     print("Processing Monitor", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
-    if el.tostring("Children") == "":
+    if el.tostring("Children").text == "":
         print("Monitor should be removed", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
        
 
