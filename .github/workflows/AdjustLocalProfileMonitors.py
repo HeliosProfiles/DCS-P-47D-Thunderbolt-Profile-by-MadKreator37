@@ -34,8 +34,7 @@ for el in monitors.iter("Monitor"):
     print("Processing Monitor", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
     if el.find("Children").text is None:
         print("Monitor being removed", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
-        parent=el.getparent()
-        parent.remove(el)       
+        monitors.remove(el)       
 
 ## Alter the location of the monitor so that it is positioned at the far right
 #for el in root.iter("Monitor"):
