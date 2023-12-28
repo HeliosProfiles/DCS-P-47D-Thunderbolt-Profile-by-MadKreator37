@@ -31,7 +31,7 @@ monitors = root.find('Monitors')
 i = 0
 for el in monitors.iter("Monitors"):
     i += 1
-    print("Processing Monitor", i, " size ", el.Find("Size").text)
+    print("Processing Monitor", i, " size ", el.find("Size").text)
 
 
 ## Alter the location of the monitor so that it is positioned at the far right
