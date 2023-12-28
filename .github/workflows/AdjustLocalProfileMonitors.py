@@ -36,7 +36,7 @@ for el in monitors.iter("Monitor"):
         print("Monitor removal", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
         # monitors.remove(el)
         li.append(el)
-        else:
+    else:
         print("Processing Monitor", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
         el.find("Location").text = "0,0"
 for i in range(len(li)):
