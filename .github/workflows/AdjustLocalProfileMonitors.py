@@ -40,9 +40,9 @@ for el in monitors.iter("Monitor"):
         el.find("Location").text = "0,0"
         print("Processing Monitor", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
 
+print("Number of Removals: ", len(li))
 for i in range(len(li)):
-        print("Number of Removals: ", len(li))
-        monitors.remove(li[0])
+        monitors.remove(li[i])
 
 ## Alter the location of the monitor so that it is positioned at the far right
 #for el in root.iter("Monitor"):
