@@ -29,10 +29,9 @@ monitorsRoot = parse(hpfMonitorFileName1).getroot()
 
 monitors = root.find('Monitors')
 i = 0
-for monitorElement in monitors.iter("Monitors"):
+for el in monitors.iter("Monitor"):
     i += 1
-    for el in monitorElement.iter("Monitor"):
-        print("Processing Monitor", i, " size ", el.find("Size").text)
+    print("Processing Monitor", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
 
 
 ## Alter the location of the monitor so that it is positioned at the far right
