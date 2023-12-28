@@ -29,15 +29,18 @@ monitorsRoot = parse(hpfMonitorFileName1).getroot()
 
 monitors = root.find('Monitors')
 i = 0
+li = []
 for el in monitors.iter("Monitor"):
     i += 1
     if el.find("Children").text is None:
         print("Monitor removal", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
-        monitors.remove(el)
-    else:
+        # monitors.remove(el)
+        li.append(el)
+        else:
         print("Processing Monitor", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
         el.find("Location").text = "0,0"
-    
+for i in range(len(li)):
+        monitors.remove(li[0])
 
 ## Alter the location of the monitor so that it is positioned at the far right
 #for el in root.iter("Monitor"):
