@@ -32,6 +32,9 @@ i = 0
 for el in monitors.iter("Monitor"):
     i += 1
     print("Processing Monitor", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
+    if el.tostring("Children") == "":
+        print("Monitor should be removed", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
+       
 
 
 ## Alter the location of the monitor so that it is positioned at the far right
