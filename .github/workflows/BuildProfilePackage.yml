@@ -65,8 +65,8 @@ jobs:
       - name: execute python script(s) to adjust the profile
         run: |
           echo "Adjust the profile internals"
-          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '.github/workflows/internalAdjustments.xml' '${{ env.VEHICLE }}/Helios/Profiles/P-47D${{ env.AUTHOR }}_.hpf.new'
-          python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '.github/workflows/Monitor0.xml' '${{ env.VEHICLE }}/Helios/Profiles/P-47D${{ env.AUTHOR }}_.hpf.new'
+          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '.github/workflows/internalAdjustments.xml' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf.new'
+          python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '.github/workflows/Monitor0.xml' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf.new'
           rm '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
           mv '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
       - run: |
