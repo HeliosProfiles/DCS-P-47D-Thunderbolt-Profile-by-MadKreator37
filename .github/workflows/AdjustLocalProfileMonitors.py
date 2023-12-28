@@ -44,22 +44,6 @@ print("Number of Removals: ", len(li))
 for i in range(len(li)):
         monitors.remove(li[i])
 
-## Alter the location of the monitor so that it is positioned at the far right
-#for el in root.iter("Monitor"):
-#    if el.find("Size").text != "1920x1080":
-#       el.
-#    el.find("Location").text = "3840,0"
-#
-## Insert the two additional monitors at the start of the monitor list 
-#for el in root:
-#    if el.tag == "Monitors":
-#        i = 0
-#        for mel in monitorsRoot:
-#            el.insert(i,mel)
-#            i += 1
-#            print("Removing Monitor",i," at ", mel.find("Location").text)
-#        continue
-
 print("Writing new profile: ",OutputHeliosProfile)
 et.write(OutputHeliosProfile,encoding="UTF-8",xml_declaration=True)
 
