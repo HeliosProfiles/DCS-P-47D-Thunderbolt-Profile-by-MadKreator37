@@ -19,7 +19,7 @@
       <AlwaysOnTop>True</AlwaysOnTop>
       <Background />
       <Children>
-        <Control TypeIdentifier="Helios.Panel" Name="Background Image" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Background Image" SnapTarget="True" Locked="False">
           <Location>0,0</Location>
           <Size>1920,1080</Size>
           <Hidden>False</Hidden>
@@ -34,7 +34,7 @@
           </Interaction>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Control center show base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Control center show base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -43,7 +43,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Control Center Show Button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Control Center Show Button" SnapTarget="True" Locked="False">
           <Location>284,1015</Location>
           <Size>80,32</Size>
           <Hidden>False</Hidden>
@@ -71,7 +71,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="Weapons Label 1" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="Weapons Label 1" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#FF49778A</FontColor>
@@ -96,7 +96,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Starter Switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Starter Switch" SnapTarget="True" Locked="False">
           <Location>1568,855</Location>
           <Size>47,110</Size>
           <Hidden>False</Hidden>
@@ -109,7 +109,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="DI Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="DI Panel" SnapTarget="True" Locked="False">
           <Location>411,262</Location>
           <Size>221,221</Size>
           <Hidden>False</Hidden>
@@ -190,7 +190,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Turbine RPM Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Turbine RPM Panel" SnapTarget="True" Locked="False">
           <Location>1583,363</Location>
           <Size>236,236</Size>
           <Hidden>False</Hidden>
@@ -257,7 +257,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Accelerometer Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Accelerometer Panel" SnapTarget="True" Locked="False">
           <Location>479,842</Location>
           <Size>236,236</Size>
           <Hidden>False</Hidden>
@@ -382,7 +382,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Compass" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Compass" SnapTarget="True" Locked="False">
           <Location>934,568</Location>
           <Size>300,300</Size>
           <Hidden>False</Hidden>
@@ -466,7 +466,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Suction Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Suction Panel" SnapTarget="True" Locked="False">
           <Location>783,844</Location>
           <Size>175,175</Size>
           <Hidden>False</Hidden>
@@ -533,7 +533,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Water Pressure Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Water Pressure Panel" SnapTarget="True" Locked="False">
           <Location>965,844</Location>
           <Size>175,175</Size>
           <Hidden>False</Hidden>
@@ -600,7 +600,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Amperemeter Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Amperemeter Panel" SnapTarget="True" Locked="False">
           <Location>12,597</Location>
           <Size>200,200</Size>
           <Hidden>False</Hidden>
@@ -669,7 +669,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Tri-Gauge Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Tri-Gauge Panel" SnapTarget="True" Locked="False">
           <Location>1676,599</Location>
           <Size>236,236</Size>
           <Hidden>False</Hidden>
@@ -802,7 +802,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Cylinder Head Temp Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Cylinder Head Temp Panel" SnapTarget="True" Locked="False">
           <Location>1676,838</Location>
           <Size>237,237</Size>
           <Hidden>False</Hidden>
@@ -880,7 +880,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Tachometer Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Tachometer Panel" SnapTarget="True" Locked="False">
           <Location>1440,602</Location>
           <Size>240,240</Size>
           <Hidden>False</Hidden>
@@ -949,8 +949,8 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Manifold Pressure Panel" SnapTarget="True" Locked="True">
-          <Location>1204,604</Location>
+        <Control TypeIdentifier="Helios.Panel" Name="Manifold Pressure Panel" SnapTarget="True" Locked="False">
+          <Location>1204,605</Location>
           <Size>235,235</Size>
           <Hidden>False</Hidden>
           <Background />
@@ -1018,7 +1018,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="VVI Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="VVI Panel" SnapTarget="True" Locked="False">
           <Location>720,608</Location>
           <Size>235,235</Size>
           <Hidden>False</Hidden>
@@ -1086,7 +1086,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Airspeed Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Airspeed Panel" SnapTarget="True" Locked="False">
           <Location>102,345</Location>
           <Size>236,236</Size>
           <Hidden>False</Hidden>
@@ -1153,7 +1153,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Turbine overspeed warning base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Turbine overspeed warning base" SnapTarget="False" Locked="False">
           <Image>MadKreator37/P-47D/Lamps_And_Indicators\Red_Warning_Light_Off.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1162,7 +1162,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="Turbine Overspeed Ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="Turbine Overspeed Ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37/P-47D/Lamps_And_Indicators\Red_Round_Indicator.png</OnImage>
           <OffImage>MadKreator37/P-47D/Transparent_Image.png</OffImage>
           <Font>
@@ -1188,7 +1188,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="LDG Warning Red Base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="LDG Warning Red Base" SnapTarget="False" Locked="False">
           <Image>MadKreator37/P-47D/Lamps_And_Indicators\Red_Warning_Light_Off.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1197,7 +1197,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="LDG Warning indicator Red" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="LDG Warning indicator Red" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37/P-47D/Lamps_And_Indicators\Red_Round_Indicator.png</OnImage>
           <OffImage>MadKreator37/P-47D/Transparent_Image.png</OffImage>
           <Font>
@@ -1223,7 +1223,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="LDG Warning Green Base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="LDG Warning Green Base" SnapTarget="False" Locked="False">
           <Image>MadKreator37/P-47D/Lamps_And_Indicators\Green_Warning_Light_Off.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1232,7 +1232,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="LDG Warning Indicator Green" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="LDG Warning Indicator Green" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37/P-47D/Lamps_And_Indicators\Green_Round_Indicator.png</OnImage>
           <OffImage>MadKreator37/P-47D/Transparent_Image.png</OffImage>
           <Font>
@@ -1258,7 +1258,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Magneto Switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Magneto Switch" SnapTarget="True" Locked="False">
           <Location>13,835</Location>
           <Size>180,243</Size>
           <Hidden>False</Hidden>
@@ -1275,7 +1275,7 @@
           </ClickType>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Fuel Level Warning Base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Fuel Level Warning Base" SnapTarget="False" Locked="False">
           <Image>MadKreator37/P-47D/Lamps_And_Indicators\Yellow_Warning_Light_Off.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -1284,7 +1284,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Indicator" Name="Fuel level Warning Ind" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Indicator" Name="Fuel level Warning Ind" SnapTarget="True" Locked="False">
           <OnImage>MadKreator37/P-47D/Lamps_And_Indicators\Yellow_Round_Indicator.png</OnImage>
           <OffImage>MadKreator37/P-47D/Transparent_Image.png</OffImage>
           <Font>
@@ -1310,7 +1310,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Turn Bank Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Turn Bank Panel" SnapTarget="True" Locked="False">
           <Location>475,442</Location>
           <Size>236,400</Size>
           <Hidden>False</Hidden>
@@ -1425,7 +1425,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Carb Temp Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Carb Temp Panel" SnapTarget="True" Locked="False">
           <Location>1577,185</Location>
           <Size>180,180</Size>
           <Hidden>False</Hidden>
@@ -1502,7 +1502,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Gunsight 30-40" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Gunsight 30-40" SnapTarget="True" Locked="False">
           <Location>712,2</Location>
           <Size>437,445</Size>
           <Hidden>False</Hidden>
@@ -1627,7 +1627,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="MK8 Ginsight Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="MK8 Ginsight Panel" SnapTarget="True" Locked="False">
           <Location>801,8</Location>
           <Size>311,485</Size>
           <Hidden>True</Hidden>
@@ -1686,7 +1686,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Fixed Reticle Mask Lever" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Fixed Reticle Mask Lever" SnapTarget="True" Locked="False">
           <Location>703,13</Location>
           <Size>75,151</Size>
           <Rotation>ROT180</Rotation>
@@ -1699,7 +1699,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Fuel Qty Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Fuel Qty Panel" SnapTarget="True" Locked="False">
           <Location>1202,839</Location>
           <Size>236,236</Size>
           <Hidden>False</Hidden>
@@ -1805,7 +1805,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Clock Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Clock Panel" SnapTarget="True" Locked="False">
           <Location>110,167</Location>
           <Size>220,210</Size>
           <Hidden>False</Hidden>
@@ -1952,7 +1952,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Altimeter Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Altimeter Panel" SnapTarget="True" Locked="False">
           <Location>236,610</Location>
           <Size>250,250</Size>
           <Hidden>False</Hidden>
@@ -2135,7 +2135,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="ADI Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="ADI Panel" SnapTarget="True" Locked="False">
           <Location>1190,220</Location>
           <Size>381,381</Size>
           <Hidden>False</Hidden>
@@ -2311,7 +2311,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Battery Switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Battery Switch" SnapTarget="True" Locked="False">
           <Location>50,805</Location>
           <Size>38,98</Size>
           <Rotation>CCW</Rotation>
@@ -2324,7 +2324,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="DI Adjustment Knob" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="DI Adjustment Knob" SnapTarget="True" Locked="False">
           <Location>480,480</Location>
           <Size>80,80</Size>
           <Hidden>False</Hidden>
@@ -2338,7 +2338,7 @@
           </ClickType>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Oxy Hyd Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Oxy Hyd Panel" SnapTarget="True" Locked="False">
           <Location>717,443</Location>
           <Size>480,170</Size>
           <Hidden>True</Hidden>
@@ -2606,7 +2606,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Misc Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Misc Panel" SnapTarget="True" Locked="False">
           <Location>1187,149</Location>
           <Size>731,465</Size>
           <Hidden>True</Hidden>
@@ -3025,7 +3025,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Accessory Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Accessory Panel" SnapTarget="True" Locked="False">
           <Location>716,467</Location>
           <Size>200,600</Size>
           <Hidden>True</Hidden>
@@ -3246,7 +3246,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Electrical Light Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Electrical Light Panel" SnapTarget="True" Locked="False">
           <Location>1186,71</Location>
           <Size>730,530</Size>
           <Hidden>True</Hidden>
@@ -3658,7 +3658,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Radio Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Radio Panel" SnapTarget="True" Locked="False">
           <Location>1435,600</Location>
           <Size>485,480</Size>
           <Hidden>True</Hidden>
@@ -4025,7 +4025,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="-28 Weapons Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="-28 Weapons Panel" SnapTarget="True" Locked="False">
           <Location>717,444</Location>
           <Size>470,635</Size>
           <Hidden>True</Hidden>
@@ -4146,8 +4146,8 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Weapon Control Panel -30" SnapTarget="True" Locked="True">
-          <Location>717,307</Location>
+        <Control TypeIdentifier="Helios.Panel" Name="Weapon Control Panel -30" SnapTarget="True" Locked="False">
+          <Location>717,320</Location>
           <Size>470,750</Size>
           <Hidden>True</Hidden>
           <Background>
@@ -4159,35 +4159,35 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Bomb Tank Panel" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Bomb Tank Panel" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Bezels_And_Faces\Bomb_Release_PB_Panel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>76,53</Location>
+              <Location>68,53</Location>
               <Size>351,175</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Main Pannel" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Main Pannel" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Bezels_And_Faces\Weapon_Arm Panel_30.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>120,228</Location>
+              <Location>112,228</Location>
               <Size>260,315</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back L" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back L" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Button_Switches_Knobs\Generic_Covered_Switch_Back.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>160,268</Location>
+              <Location>152,268</Location>
               <Size>43,110</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="L Arm Switch" SnapTarget="True" Locked="False">
-              <Location>165,295</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="L Arm Switch" SnapTarget="True" Locked="True">
+              <Location>157,295</Location>
               <Size>35,61</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4198,17 +4198,17 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back R" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back R" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Button_Switches_Knobs\Generic_Covered_Switch_Back.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>213,268</Location>
+              <Location>205,268</Location>
               <Size>43,110</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="R Arm Switch" SnapTarget="True" Locked="False">
-              <Location>220,296</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="R Arm Switch" SnapTarget="True" Locked="True">
+              <Location>212,296</Location>
               <Size>35,61</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4219,17 +4219,17 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back Belly" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back Belly" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Button_Switches_Knobs\Generic_Covered_Switch_Back.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>298,268</Location>
+              <Location>290,268</Location>
               <Size>43,110</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Belly Arm Switch" SnapTarget="True" Locked="False">
-              <Location>305,296</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Belly Arm Switch" SnapTarget="True" Locked="True">
+              <Location>297,296</Location>
               <Size>35,61</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4240,17 +4240,17 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back L Chem" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back L Chem" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Button_Switches_Knobs\Generic_Covered_Switch_Back.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>160,422</Location>
+              <Location>152,422</Location>
               <Size>43,110</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="L Chem Arm Switch" SnapTarget="True" Locked="False">
-              <Location>166,450</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="L Chem Arm Switch" SnapTarget="True" Locked="True">
+              <Location>158,450</Location>
               <Size>35,61</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4261,17 +4261,17 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back R Chem" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Switch Back R Chem" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Button_Switches_Knobs\Generic_Covered_Switch_Back.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>212,422</Location>
+              <Location>204,422</Location>
               <Size>43,110</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="R Chem Arm Switch" SnapTarget="True" Locked="False">
-              <Location>217,450</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="R Chem Arm Switch" SnapTarget="True" Locked="True">
+              <Location>209,450</Location>
               <Size>35,61</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4282,8 +4282,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Park Brake" SnapTarget="True" Locked="False">
-              <Location>158,152</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Park Brake" SnapTarget="True" Locked="True">
+              <Location>150,152</Location>
               <Size>200,68</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnMom</SwitchType>
@@ -4294,8 +4294,8 @@
               <DefaultPosition>One</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="L Release Handle" SnapTarget="True" Locked="False">
-              <Location>48,0</Location>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="L Release Handle" SnapTarget="True" Locked="True">
+              <Location>40,0</Location>
               <Size>72,182</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4303,8 +4303,8 @@
               <PushedImage>MadKreator37/P-47D/Button_Switches_Knobs\Jettison_Handle_Left_Pulled.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Right Release Handle" SnapTarget="True" Locked="False">
-              <Location>95,0</Location>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Right Release Handle" SnapTarget="True" Locked="True">
+              <Location>87,0</Location>
               <Size>71,182</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4312,8 +4312,8 @@
               <PushedImage>MadKreator37/P-47D/Button_Switches_Knobs\Jettison_Handle_Center_Pulled.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Belly Release Handle" SnapTarget="True" Locked="False">
-              <Location>343,26</Location>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Belly Release Handle" SnapTarget="True" Locked="True">
+              <Location>340,26</Location>
               <Size>150,125</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4321,8 +4321,8 @@
               <PushedImage>MadKreator37/P-47D/Button_Switches_Knobs\Jettison_Handle_Right_Pulled.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Arming Panel 30-40" SnapTarget="True" Locked="False">
-              <Location>85,540</Location>
+            <Control TypeIdentifier="Helios.Panel" Name="Arming Panel 30-40" SnapTarget="True" Locked="True">
+              <Location>77,540</Location>
               <Size>325,185</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -4379,8 +4379,8 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Left Bomb Cover" SnapTarget="True" Locked="False">
-              <Location>161,228</Location>
+            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Left Bomb Cover" SnapTarget="True" Locked="True">
+              <Location>153,228</Location>
               <Size>45,162</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4398,8 +4398,8 @@
               <DefaultGuardPosition>Down</DefaultGuardPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Right Bomb Cover" SnapTarget="True" Locked="False">
-              <Location>214,228</Location>
+            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Right Bomb Cover" SnapTarget="True" Locked="True">
+              <Location>206,228</Location>
               <Size>45,162</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4417,8 +4417,8 @@
               <DefaultGuardPosition>Down</DefaultGuardPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Belly Bomb Cover" SnapTarget="True" Locked="False">
-              <Location>300,228</Location>
+            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Belly Bomb Cover" SnapTarget="True" Locked="True">
+              <Location>292,228</Location>
               <Size>45,162</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4436,8 +4436,8 @@
               <DefaultGuardPosition>Down</DefaultGuardPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Left Wing Cover" SnapTarget="True" Locked="False">
-              <Location>161,382</Location>
+            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Left Wing Cover" SnapTarget="True" Locked="True">
+              <Location>153,382</Location>
               <Size>45,162</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4455,8 +4455,8 @@
               <DefaultGuardPosition>Down</DefaultGuardPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Right Wing Cover" SnapTarget="True" Locked="False">
-              <Location>214,382</Location>
+            <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Right Wing Cover" SnapTarget="True" Locked="True">
+              <Location>206,382</Location>
               <Size>45,162</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4476,8 +4476,8 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Weapon Control Panel -40" SnapTarget="True" Locked="True">
-          <Location>706,332</Location>
+        <Control TypeIdentifier="Helios.Panel" Name="Weapon Control Panel -40" SnapTarget="True" Locked="False">
+          <Location>706,321</Location>
           <Size>470,720</Size>
           <Hidden>True</Hidden>
           <Background>
@@ -4489,8 +4489,8 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Rocket Counter Drum" SnapTarget="True" Locked="False">
-              <Location>189,423</Location>
+            <Control TypeIdentifier="Helios.Base.CustomDrum" Name="Rocket Counter Drum" SnapTarget="True" Locked="True">
+              <Location>179,420</Location>
               <Size>24,50</Size>
               <Hidden>False</Hidden>
               <DrumImage>MadKreator37/P-47D/Needles_And_Pointers\Rocket_Salvo_Tape.png</DrumImage>
@@ -4505,26 +4505,26 @@
               <MaxInputVertical>24</MaxInputVertical>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Rocket Control Base" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Rocket Control Base" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Bezels_And_Faces\Weapon_Rocket_Panel_40.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>128,260</Location>
+              <Location>118,257</Location>
               <Size>270,267</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Bomb Tank Base" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Bomb Tank Base" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Bezels_And_Faces\Bomb_Release_PB_Panel_40.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>90,57</Location>
+              <Location>80,54</Location>
               <Size>351,206</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="L release handle" SnapTarget="True" Locked="False">
-              <Location>61,3</Location>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="L release handle" SnapTarget="True" Locked="True">
+              <Location>51,0</Location>
               <Size>73,182</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4532,8 +4532,8 @@
               <PushedImage>MadKreator37/P-47D/Button_Switches_Knobs\Jettison_Handle_Left_Pulled.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="R release handle " SnapTarget="True" Locked="False">
-              <Location>98,3</Location>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="R release handle " SnapTarget="True" Locked="True">
+              <Location>88,0</Location>
               <Size>78,182</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4541,8 +4541,8 @@
               <PushedImage>MadKreator37/P-47D/Button_Switches_Knobs\Jettison_Handle_Center_Pulled.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Belly release handle  " SnapTarget="True" Locked="False">
-              <Location>360,30</Location>
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Belly release handle  " SnapTarget="True" Locked="True">
+              <Location>345,27</Location>
               <Size>150,125</Size>
               <Hidden>False</Hidden>
               <Type>Momentary</Type>
@@ -4550,8 +4550,8 @@
               <PushedImage>MadKreator37/P-47D/Button_Switches_Knobs\Jettison_Handle_Right_Pulled.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Parking Brake" SnapTarget="True" Locked="False">
-              <Location>185,163</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Parking Brake" SnapTarget="True" Locked="True">
+              <Location>175,160</Location>
               <Size>165,55</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnMom</SwitchType>
@@ -4562,8 +4562,8 @@
               <DefaultPosition>One</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Dely Inst Sw" SnapTarget="True" Locked="False">
-              <Location>296,305</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Dely Inst Sw" SnapTarget="True" Locked="True">
+              <Location>286,302</Location>
               <Size>31,55</Size>
               <Rotation>CW</Rotation>
               <Hidden>False</Hidden>
@@ -4575,8 +4575,8 @@
               <DefaultPosition>One</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Ripple Knob" SnapTarget="True" Locked="False">
-              <Location>145,252</Location>
+            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Ripple Knob" SnapTarget="True" Locked="True">
+              <Location>135,249</Location>
               <Size>101,125</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37/P-47D/Button_Switches_Knobs\Selector_Knob_1_Wide.png</KnobImage>
@@ -4591,8 +4591,8 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Rotary Switch 1" SnapTarget="True" Locked="False">
-              <Location>237,418</Location>
+            <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Rotary Switch 1" SnapTarget="True" Locked="True">
+              <Location>227,415</Location>
               <Size>64,64</Size>
               <Hidden>False</Hidden>
               <KnobImage>MadKreator37/P-47D/Button_Switches_Knobs\Reset_Knob.png</KnobImage>
@@ -4622,8 +4622,8 @@
               <VisualizeInteraction>True</VisualizeInteraction>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Rocket Counter Switch Invisible" SnapTarget="True" Locked="False">
-              <Location>210,418</Location>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Rocket Counter Switch Invisible" SnapTarget="True" Locked="True">
+              <Location>200,415</Location>
               <Size>63,121</Size>
               <Rotation>CW</Rotation>
               <Hidden>False</Hidden>
@@ -4636,8 +4636,8 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Salvo Switch" SnapTarget="True" Locked="False">
-              <Location>88,568</Location>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Salvo Switch" SnapTarget="True" Locked="True">
+              <Location>78,565</Location>
               <Size>40,100</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
@@ -4648,20 +4648,20 @@
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Salvo Base" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="Salvo Base" SnapTarget="False" Locked="True">
               <Image>MadKreator37/P-47D/Bezels_And_Faces\Rocket_Sequence_Panel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
-              <Location>128,527</Location>
+              <Location>118,524</Location>
               <Size>270,188</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Weapon Arm Panel -40" SnapTarget="True" Locked="True">
-          <Location>0,660</Location>
-          <Size>738,420</Size>
+        <Control TypeIdentifier="Helios.Panel" Name="Weapon Arm Panel -40" SnapTarget="True" Locked="False">
+          <Location>0,610</Location>
+          <Size>738,470</Size>
           <Hidden>True</Hidden>
           <Background>
             <Color>#C4000000</Color>
@@ -4794,7 +4794,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Panel" Name="Arming Panel 30-40" SnapTarget="True" Locked="True">
-              <Location>161,215</Location>
+              <Location>161,234</Location>
               <Size>325,185</Size>
               <Hidden>False</Hidden>
               <Background />
@@ -4853,7 +4853,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Flight Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Flight Panel" SnapTarget="True" Locked="False">
           <Location>0,80</Location>
           <Size>718,1000</Size>
           <Hidden>True</Hidden>
@@ -5828,7 +5828,7 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="Panel Reset Label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="Panel Reset Label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#FF8C0404</FontColor>
@@ -5853,7 +5853,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="Weapons Label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="Weapons Label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#FF49778A</FontColor>
@@ -5878,7 +5878,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Weapon -28 SW" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Weapon -28 SW" SnapTarget="True" Locked="False">
           <Location>904,260</Location>
           <Size>25,62</Size>
           <Hidden>True</Hidden>
@@ -5890,7 +5890,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Weapon -40 SW" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Weapon -40 SW" SnapTarget="True" Locked="False">
           <Location>904,260</Location>
           <Size>25,62</Size>
           <Hidden>True</Hidden>
@@ -5902,7 +5902,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Weapon switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Weapon switch" SnapTarget="True" Locked="False">
           <Location>904,260</Location>
           <Size>25,62</Size>
           <Hidden>False</Hidden>
@@ -5914,7 +5914,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="Elect label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="Elect label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#FF49778A</FontColor>
@@ -5939,7 +5939,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Elec Light Sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Elec Light Sw" SnapTarget="True" Locked="False">
           <Location>980,260</Location>
           <Size>25,62</Size>
           <Hidden>False</Hidden>
@@ -5951,7 +5951,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="Misc Label " SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="Misc Label " SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#FF49778A</FontColor>
@@ -5976,7 +5976,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="Radio Label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="Radio Label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#FF49778A</FontColor>
@@ -6001,7 +6001,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Misc  SW" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Misc  SW" SnapTarget="True" Locked="False">
           <Location>836,206</Location>
           <Size>25,62</Size>
           <Hidden>False</Hidden>
@@ -6013,7 +6013,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Radio SW" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Radio SW" SnapTarget="True" Locked="False">
           <Location>1049,259</Location>
           <Size>25,62</Size>
           <Hidden>False</Hidden>
@@ -6025,7 +6025,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="Start Label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="Start Label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#FF49778A</FontColor>
@@ -6050,7 +6050,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Text" Name="Flight Label" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Text" Name="Flight Label" SnapTarget="True" Locked="False">
           <FillBackground>False</FillBackground>
           <BackgroundColor>#FF1E1E1E</BackgroundColor>
           <FontColor>#FF49778A</FontColor>
@@ -6075,7 +6075,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Start  Switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Start  Switch" SnapTarget="True" Locked="False">
           <Location>1047,206</Location>
           <Size>25,62</Size>
           <Hidden>False</Hidden>
@@ -6087,7 +6087,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Flight Sw" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Flight Sw" SnapTarget="True" Locked="False">
           <Location>838,262</Location>
           <Size>25,62</Size>
           <Hidden>False</Hidden>
@@ -6099,7 +6099,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Panel reset SW -30-40" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Panel reset SW -30-40" SnapTarget="True" Locked="False">
           <Location>934,220</Location>
           <Size>45,45</Size>
           <Hidden>False</Hidden>
@@ -6108,7 +6108,7 @@
           <PushedImage>MadKreator37/P-47D/Button_Switches_Knobs\Gen_Button_Pushed.png</PushedImage>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Generic Blue Panel" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="Generic Blue Panel" SnapTarget="True" Locked="False">
           <Location>1450,1005</Location>
           <Size>199,75</Size>
           <Hidden>False</Hidden>
@@ -6122,7 +6122,7 @@
           </Interaction>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="F10 base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="F10 base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6131,7 +6131,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="F1 BASE" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="F1 BASE" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6140,7 +6140,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Esc base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Esc base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6149,7 +6149,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="F6 base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="F6 base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6158,7 +6158,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="F1 Button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="F1 Button" SnapTarget="True" Locked="False">
           <Location>1446,847</Location>
           <Size>37,37</Size>
           <Hidden>False</Hidden>
@@ -6186,7 +6186,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="F10 button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="F10 button" SnapTarget="True" Locked="False">
           <Location>1494,847</Location>
           <Size>37,37</Size>
           <Hidden>False</Hidden>
@@ -6214,7 +6214,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="ESC button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="ESC button" SnapTarget="True" Locked="False">
           <Location>1495,898</Location>
           <Size>37,37</Size>
           <Hidden>False</Hidden>
@@ -6242,7 +6242,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Briefing base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Briefing base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6251,7 +6251,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="F6 Button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="F6 Button" SnapTarget="True" Locked="False">
           <Location>1446,898</Location>
           <Size>37,37</Size>
           <Hidden>False</Hidden>
@@ -6279,7 +6279,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Briefing Button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Briefing Button" SnapTarget="True" Locked="False">
           <Location>1450,949</Location>
           <Size>80,23</Size>
           <Hidden>False</Hidden>
@@ -6307,7 +6307,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Rearm base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Rearm base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6316,7 +6316,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Rearm button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Rearm button" SnapTarget="True" Locked="False">
           <Location>1450,984</Location>
           <Size>80,23</Size>
           <Hidden>False</Hidden>
@@ -6344,7 +6344,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Kneeboard base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6353,7 +6353,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard Button" SnapTarget="True" Locked="False">
           <Location>1450,1021</Location>
           <Size>80,32</Size>
           <Hidden>False</Hidden>
@@ -6381,7 +6381,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard left base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6390,7 +6390,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard left button" SnapTarget="True" Locked="False">
           <Location>1546,1021</Location>
           <Size>25,32</Size>
           <Hidden>False</Hidden>
@@ -6418,7 +6418,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="kneeboard right base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6427,7 +6427,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Kneeboard right button" SnapTarget="True" Locked="False">
           <Location>1580,1021</Location>
           <Size>25,32</Size>
           <Hidden>False</Hidden>
@@ -6455,7 +6455,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="True">
+        <Control TypeIdentifier="Helios.Base.Image" Name="Markpoint Base" SnapTarget="False" Locked="False">
           <Image>MadKreator37\P-47D\Button_Switches_Knobs\Generic_Button_Base.png</Image>
           <Alignment>Stretched</Alignment>
           <CornerRadius>0</CornerRadius>
@@ -6464,7 +6464,7 @@
           <Hidden>False</Hidden>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.PushButton" Name="Markpoint Button" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.PushButton" Name="Markpoint Button" SnapTarget="True" Locked="False">
           <Location>1617,1021</Location>
           <Size>48,32</Size>
           <Hidden>False</Hidden>
@@ -6492,7 +6492,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Vairiant Select" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Vairiant Select" SnapTarget="True" Locked="False">
           <Location>1500,12</Location>
           <Size>72,72</Size>
           <Hidden>False</Hidden>
@@ -8591,16 +8591,6 @@
       <Trigger Source="Visual;Monitor 2.Flight Panel.Throttle Quad.Boost Swipe Area;Helios.Base.PotentiometerWithTranslate;Boost Swipe Area" Name="value Translation Y.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.set.Boost Lever" />
       <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Flight Panel.Throttle Quad.NOS;Helios.Base.PushButton;NOS" Name="pushed" />
-      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.push.NOS Button" />
-      <StaticValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Flight Panel.Throttle Quad.NOS;Helios.Base.PushButton;NOS" Name="released" />
-      <Action Target="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.release.NOS Button" />
-      <StaticValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Flight Panel.Throttle Quad.Boost Lock Button;Helios.Base.PushButton;Boost Lock Button" Name="pushed" />
