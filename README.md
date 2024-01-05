@@ -42,6 +42,6 @@ Artificial Horizon Zeroing: not fully working as intended
 
 ### Notes
 
--Due to the wide range of displays, monitors, TV's and tablets,  I cannot guarantee exact brightness levels or color accuracy results from user to user. This is not something I have any control of. If you have visual issues (too bright or too dark etc)  please calibrate your display and/or adjust settings in your GPU's software, brightness, contrast, sharpness, gamma, digital vibrance etc. It will probably enhance all other profiles as well. During testing, the profile was used and shown on multiple types, sizes, and resolutions of displays to rule out any "game breaking" visuals. However please keep inmind that it is impossible for me to account for every scenario.
+-Due to the wide range of displays, monitors, TV's and tablets,  I cannot guarantee exact brightness levels or color accuracy results from user to user. This is not something I have any control of. If you have visual issues (too bright or too dark etc)  please calibrate your display and/or adjust settings in your GPU's software, brightness, contrast, sharpness, gamma, digital vibrance etc. It will probably enhance all other profiles as well. During testing, the profile was used and shown on multiple types, sizes, and resolutions of displays to rule out any "game breaking" visuals. However, please keep in mind that it is impossible for me to account for every scenario.
 
 -*Remember to always make a back up of files before making changes*
