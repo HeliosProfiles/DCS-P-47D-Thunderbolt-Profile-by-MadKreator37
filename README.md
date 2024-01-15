@@ -16,7 +16,7 @@ This Profile cotains all three variants (-30, -30bl1 and -40) and their respecti
 
 ### IMAGES
 
-![Screenshot 2024-01-04 175918](https://github.com/HeliosProfiles/DCS-P-47D-Thunderbolt-Profile-by-MadKreator37/assets/110797278/00a4502a-8680-4ced-be81-a89bd2e3f815)
+![Screenshot 2024-01-14 172807](https://github.com/HeliosProfiles/DCS-P-47D-Thunderbolt-Profile-by-MadKreator37/assets/110797278/99a7e1f3-79d3-4cfa-b3c1-fa23a0b45dc9)
 ![Screenshot 2024-01-04 175930](https://github.com/HeliosProfiles/DCS-P-47D-Thunderbolt-Profile-by-MadKreator37/assets/110797278/7d706ed8-4e16-4dd9-864a-54378fe45eff)
 ![Screenshot 2024-01-04 175937](https://github.com/HeliosProfiles/DCS-P-47D-Thunderbolt-Profile-by-MadKreator37/assets/110797278/bbb400e3-75ce-4471-8c10-89bde1cb3e62)
 ![Screenshot 2024-01-04 175948](https://github.com/HeliosProfiles/DCS-P-47D-Thunderbolt-Profile-by-MadKreator37/assets/110797278/9a21b801-2fb1-4824-9fd1-8c607ef31a65)
