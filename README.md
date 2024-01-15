@@ -12,7 +12,7 @@ This profile was designed and created by MadKreator37. All parts were cut and mo
 
 This Profile cotains all three variants (-30, -30bl1 and -40) and their respective systems, all in the same profile. 
 
-*NOTE* The added functions: F1, F10, F6, Esc, Rearm, Briefing, Kneeboard and Markpoint are made with an English Keyboard format and require the default DCS keybindings for them to work properly. If you have altered any of these or are using a non-english keyboard, then some functions may not work as intended. You may have to bind them to the correct actions in the Keyboard Interface.
+*NOTE* The added functions: F1, F10, F2, Esc, Rearm, Briefing, Kneeboard and Markpoint are made with an English Keyboard format and require the default DCS keybindings for them to work properly. If you have altered any of these or are using a non-english keyboard, then some functions may not work as intended. You may have to bind them to the correct actions in the Keyboard Interface.
 
 ### IMAGES
 
