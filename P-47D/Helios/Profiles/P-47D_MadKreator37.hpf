@@ -6311,7 +6311,7 @@
                 <Bottom>0</Bottom>
               </Padding>
             </Font>
-            <Text>F6     WPN</Text>
+            <Text>F2    EXT</Text>
             <ScalingMode>None</ScalingMode>
           </Text>
           <Children />
@@ -8912,7 +8912,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.F6 Button;Helios.Base.PushButton;F6 Button" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>{F6}</StaticValue>
+      <StaticValue>F2</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Briefing Button;Helios.Base.PushButton;Briefing Button" Name="released" />
