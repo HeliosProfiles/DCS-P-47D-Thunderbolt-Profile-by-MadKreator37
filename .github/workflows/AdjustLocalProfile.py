@@ -34,7 +34,7 @@ for el in root:
         for mel in bindingsRoot:
             el.insert(i,mel)
             i += 1
-            print("Adding Binding for ", mel.find("StaticValue").text)
+            print("Adding Binding for ", mel.find("LuaScript").text)
         continue
 
 print("Writing new profile: ",OutputHeliosProfile)

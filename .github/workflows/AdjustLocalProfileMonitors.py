@@ -7,16 +7,13 @@
 # committed.
 # Arguments:
 # 1. Filename for the original Helios Profile file
-# 2. Filename for the monitor XML to be inserted into the profile 
-# 3. Filename of the resultant Helios profile
+# 2. Filename of the resultant Helios profile
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 import sys
 InputHeliosProfile = sys.argv[1]
-hpfMonitorFileName1 = sys.argv[2]
-OutputHeliosProfile = sys.argv[3]
+OutputHeliosProfile = sys.argv[2]
 
 print("Donor Helios Profile", InputHeliosProfile)
-print("Monitor XML ", hpfMonitorFileName1)
 print("New Helios Profile ", OutputHeliosProfile)
 
 from defusedxml.ElementTree import parse
@@ -24,8 +21,6 @@ from defusedxml.ElementTree import parse
 print("Reading existing profile: ",InputHeliosProfile)
 et = parse(InputHeliosProfile)
 root = et.getroot()
-print("Reading additional monitor XML: ",hpfMonitorFileName1)
-monitorsRoot = parse(hpfMonitorFileName1).getroot()
 
 monitors = root.find('Monitors')
 i = 0
@@ -34,7 +29,6 @@ for el in monitors.iter("Monitor"):
     i += 1
     if el.find("Children").text is None:
         print("schedule non-helios Monitor for removal", i, " location ", el.find("Location").text, " size ", el.find("Size").text)
-        # monitors.remove(el)
         li.append(el)
     else:
         el.find("Location").text = "0,0"
