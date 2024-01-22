@@ -5,7 +5,7 @@ This is a Helios profile for [Eagle Dynamics's P-47D Thunderbolt for DCS](https:
 This profile utilises an updated set of JSON interfaces which have been contributed to was written into the Helios Virtual Cockpit project called **Helios**.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 
 ### IMPORTANT!
-You *MUST* be running Helios 1.6.604 minimum. Please visit the link above to download the latest releases of both.
+You *MUST* be running Helios 1.6.606 minimum. Please visit the link above to download the latest releases of both.
 
 ### ABOUT
 This profile was designed and created by MadKreator37. All parts were cut and modified from the 3D model of the P-47D cockpit. Every piece used is specific to the P-47D.  The hope is to bring you a complete, easy to use profile that is also easily pulled apart into its individual components for use on multiple Helios screens. 
