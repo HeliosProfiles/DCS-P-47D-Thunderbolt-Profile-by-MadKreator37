@@ -6520,7 +6520,7 @@
           </Text>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Vairiant Select" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Variant Select" SnapTarget="True" Locked="True">
           <Location>1500,12</Location>
           <Size>72,72</Size>
           <Hidden>False</Hidden>
@@ -8706,7 +8706,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="position two.entered" />
       <Action Target="Visual;Monitor 1.Weapon Arm Panel -40;Helios.Panel;Weapon Arm Panel -40" Name="set.hidden" />
-      <StaticValue>true/</StaticValue>
+      <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="position one.entered" />
@@ -8939,79 +8939,84 @@
       <StaticValue>{RCONTROL}k</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 2.entered" />
       <Action Target="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 2.entered" />
       <Action Target="Visual;Monitor 1.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 1.entered" />
       <Action Target="Visual;Monitor 1.Weapon -28 SW;Helios.Base.ToggleSwitch;Weapon -28 SW" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 1.entered" />
       <Action Target="Visual;Monitor 1.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 2.entered" />
       <Action Target="Visual;Monitor 1.Weapon -28 SW;Helios.Base.ToggleSwitch;Weapon -28 SW" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 3.entered" />
       <Action Target="Visual;Monitor 1.Weapon -28 SW;Helios.Base.ToggleSwitch;Weapon -28 SW" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 3.entered" />
       <Action Target="Visual;Monitor 1.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 1.entered" />
       <Action Target="Visual;Monitor 1.M14 Gunsight Panel;Helios.Panel;M14 Gunsight Panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 1.entered" />
       <Action Target="Visual;Monitor 1.MK8 Gunsight Panel;Helios.Panel;MK8 Gunsight Panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 1.entered" />
       <Action Target="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 2.entered" />
       <Action Target="Visual;Monitor 1.MK8 Gunsight Panel;Helios.Panel;MK8 Gunsight Panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 2.entered" />
       <Action Target="Visual;Monitor 1.M14 Gunsight Panel;Helios.Panel;M14 Gunsight Panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 3.entered" />
       <Action Target="Visual;Monitor 1.M14 Gunsight Panel;Helios.Panel;M14 Gunsight Panel" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 3.entered" />
       <Action Target="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
+      <Trigger Source="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="position 3.entered" />
       <Action Target="Visual;Monitor 1.MK8 Gunsight Panel;Helios.Panel;MK8 Gunsight Panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
+      <Action Target="Visual;Monitor 1.Variant Select;Helios.Base.RotarySwitch;Variant Select" Name="set.position" />
+      <LuaScript>if TriggerValue == "P-47D-30bl1" then return 1 elseif TriggerValue == "P-47D-30" then return 2 else return 3 end</LuaScript>
     </Binding>
   </Bindings>
 </HeliosProfile>

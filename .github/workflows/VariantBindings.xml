@@ -1,77 +1,7 @@
 <Bindings>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30bl1" then return true else return false end</LuaScript>
-    </Binding>    
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon -28 SW;Helios.Base.ToggleSwitch;Weapon -28 SW" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30bl1" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30bl1" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.MK8 Gunsight Panel;Helios.Panel;MK8 Gunsight Panel" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30bl1" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40;Helios.Panel;Gunsight 30-40" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30bl1" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.MK8 Gunsight Panel;Helios.Panel;MK8 Gunsight Panel" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40;Helios.Panel;Gunsight 30-40" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon -28 SW;Helios.Base.ToggleSwitch;Weapon -28 SW" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-30" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-40" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon -28 SW;Helios.Base.ToggleSwitch;Weapon -28 SW" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-40" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Weapon -40 SW;Helios.Base.ToggleSwitch;Weapon -40 SW" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-40" then return true else return false end</LuaScript>
-    </Binding>
-	    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.MK8 Gunsight Panel;Helios.Panel;MK8 Gunsight Panel" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-40" then return true else return false end</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.HeliosInformation;Helios Information" Name="DCS Vehicle Name.changed" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40;Helios.Panel;Gunsight 30-40" Name="set.hidden" />
-      <LuaScript>if TriggerValue=="P-47D-40" then return true else return false end</LuaScript>
+      <Action Target="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="set.position" />
+      <LuaScript>if TriggerValue == "P-47D-30bl1" then return 1 elseif TriggerValue == "P-47D-30" then return 2 else return 3 end</LuaScript>
     </Binding>
 </Bindings>

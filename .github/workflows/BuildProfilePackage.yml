@@ -65,14 +65,14 @@ jobs:
       - name: execute python script(s) to adjust the profile
         run: |
           echo "Adjust the profile internals"
-          python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '.github/workflows/VariantBindings.xml' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf.newbindings'
-          python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf.newbindings' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf.new'
+          # python .github/workflows/AdjustLocalProfile.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '.github/workflows/VariantBindings.xml' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf.newbindings'
+          python .github/workflows/AdjustLocalProfileMonitors.py '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf.new'
           sed -i -- 's#Visual;Monitor 2#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 3#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 4#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 5#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.new'
           sed -i -- 's#Visual;Monitor 6#Visual;Monitor 1#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.new'
-          rm '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.newbindings'
+          # rm '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.newbindings'
           rm '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
           mv '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf.new' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
       - run: |
