@@ -1,6 +1,6 @@
 [![CreateHelios16](https://github.com/HeliosProfiles/MadKreator37-P-47D-Profile/actions/workflows/BuildProfilePackage.yml/badge.svg)](https://github.com/HeliosProfiles/MadKreator37-P-47D-Profile/actions/workflows/BuildProfilePackage.yml)
 # DCS P-47D Helios Profiles by MadKreator37 
-## Download the Profile helios16 package from [the __Assets__ section here](https://github.com/HeliosProfiles/DCS-F-15E-Profile-by-MadKreator37/releases/latest)
+## Download the Profile helios16 package from [the __Assets__ section here](https://github.com/HeliosProfiles/DCS-P-47D-Thunderbolt-Profile-by-MadKreator37/releases/latest)
 This is a Helios profile for [Eagle Dynamics's P-47D Thunderbolt for DCS](https://www.digitalcombatsimulator.com/en/products/planes/thunderbolt/) designed for DCS World and contributed by @MadKreator37 . 
 This profile utilises an updated set of JSON interfaces which have been contributed to was written into the Helios Virtual Cockpit project called **Helios**.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 
