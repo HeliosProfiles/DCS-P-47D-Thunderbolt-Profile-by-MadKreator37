@@ -1530,7 +1530,66 @@
             </Control>
           </Children>
         </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="Gunsight 30-40" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Panel" Name="MK8 Gunsight Panel" SnapTarget="True" Locked="True">
+          <Location>801,8</Location>
+          <Size>311,485</Size>
+          <Hidden>True</Hidden>
+          <Background />
+          <Interaction>
+            <AllowInteractionFull>False</AllowInteractionFull>
+            <AllowInteractionNone>True</AllowInteractionNone>
+            <AllowInteractionLegacy>False</AllowInteractionLegacy>
+          </Interaction>
+          <Children>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Sight" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/P-47D/Bezels_And_Faces/MK8_Gunsight.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>0,1</Location>
+              <Size>310,432</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="level" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/P-47D/Bezels_And_Faces/MK8_Level_.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>89,132</Location>
+              <Size>135,36</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.CustomGauge" Name="slip ball" SnapTarget="True" Locked="True">
+              <Location>86,17</Location>
+              <Size>139,151</Size>
+              <Hidden>False</Hidden>
+              <BGPlateImage>MadKreator37/P-47D/Transparent_Image.png</BGPlateImage>
+              <KnobImage>MadKreator37/P-47D/Needles_And_Pointers/MK8_Level_Ball.png</KnobImage>
+              <Needle_Scale>0.145567091167382</Needle_Scale>
+              <Needle_PosX>0.475</Needle_PosX>
+              <Needle_PosY>0.852709538824017</Needle_PosY>
+              <Needle_PivotX>0.49830220713073</Needle_PivotX>
+              <Needle_PivotY>0</Needle_PivotY>
+              <InitialValue>0</InitialValue>
+              <StepValue>0.001</StepValue>
+              <MaxValue>-1</MaxValue>
+              <MinValue>1</MinValue>
+              <InitialRotation>342.370980159905</InitialRotation>
+              <RotationTravel>36.6760369002188</RotationTravel>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Image" Name="Image 2" SnapTarget="False" Locked="True">
+              <Image>MadKreator37/P-47D/Bezels_And_Faces/MK8_Level_Straps.png</Image>
+              <Alignment>Stretched</Alignment>
+              <CornerRadius>0</CornerRadius>
+              <Location>92,133</Location>
+              <Size>127,28</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+          </Children>
+        </Control>
+        <Control TypeIdentifier="Helios.Panel" Name="M14 Gunsight Panel" SnapTarget="True" Locked="True">
           <Location>712,2</Location>
           <Size>437,445</Size>
           <Hidden>False</Hidden>
@@ -1651,65 +1710,6 @@
                 <Type>Swipe</Type>
                 <Sensitivity>1</Sensitivity>
               </ClickType>
-              <Children />
-            </Control>
-          </Children>
-        </Control>
-        <Control TypeIdentifier="Helios.Panel" Name="MK8 Gunsight Panel" SnapTarget="True" Locked="True">
-          <Location>801,8</Location>
-          <Size>311,485</Size>
-          <Hidden>True</Hidden>
-          <Background />
-          <Interaction>
-            <AllowInteractionFull>False</AllowInteractionFull>
-            <AllowInteractionNone>True</AllowInteractionNone>
-            <AllowInteractionLegacy>False</AllowInteractionLegacy>
-          </Interaction>
-          <Children>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Sight" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/P-47D/Bezels_And_Faces/MK8_Gunsight.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>0,1</Location>
-              <Size>310,432</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="level" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/P-47D/Bezels_And_Faces/MK8_Level_.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>89,132</Location>
-              <Size>135,36</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.CustomGauge" Name="slip ball" SnapTarget="True" Locked="True">
-              <Location>86,17</Location>
-              <Size>139,151</Size>
-              <Hidden>False</Hidden>
-              <BGPlateImage>MadKreator37/P-47D/Transparent_Image.png</BGPlateImage>
-              <KnobImage>MadKreator37/P-47D/Needles_And_Pointers/MK8_Level_Ball.png</KnobImage>
-              <Needle_Scale>0.145567091167382</Needle_Scale>
-              <Needle_PosX>0.475</Needle_PosX>
-              <Needle_PosY>0.852709538824017</Needle_PosY>
-              <Needle_PivotX>0.49830220713073</Needle_PivotX>
-              <Needle_PivotY>0</Needle_PivotY>
-              <InitialValue>0</InitialValue>
-              <StepValue>0.001</StepValue>
-              <MaxValue>-1</MaxValue>
-              <MinValue>1</MinValue>
-              <InitialRotation>342.370980159905</InitialRotation>
-              <RotationTravel>36.6760369002188</RotationTravel>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="Image 2" SnapTarget="False" Locked="True">
-              <Image>MadKreator37/P-47D/Bezels_And_Faces/MK8_Level_Straps.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>92,133</Location>
-              <Size>127,28</Size>
-              <Hidden>False</Hidden>
               <Children />
             </Control>
           </Children>
@@ -5930,7 +5930,7 @@
           <DefaultPosition>Two</DefaultPosition>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Weapon switch" SnapTarget="True" Locked="True">
+        <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Weapon -30 SW" SnapTarget="True" Locked="True">
           <Location>904,260</Location>
           <Size>25,62</Size>
           <Hidden>False</Hidden>
@@ -6187,7 +6187,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="F1 Button" SnapTarget="True" Locked="True">
-          <Location>1446,847</Location>
+          <Location>1446,846</Location>
           <Size>37,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -6215,7 +6215,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="F10 button" SnapTarget="True" Locked="True">
-          <Location>1494,847</Location>
+          <Location>1446,898</Location>
           <Size>37,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -6280,7 +6280,7 @@
           <Children />
         </Control>
         <Control TypeIdentifier="Helios.Base.PushButton" Name="F6 Button" SnapTarget="True" Locked="True">
-          <Location>1446,898</Location>
+          <Location>1494,846</Location>
           <Size>37,37</Size>
           <Hidden>False</Hidden>
           <Type>Momentary</Type>
@@ -6576,7 +6576,9 @@
     <Interface TypeIdentifier="Helios.Base.Keyboard" Name="Keyboard">
       <KeyDelay>30</KeyDelay>
     </Interface>
-    <Interface TypeIdentifier="Helios.DCSInterfaceFile" Name="DCS P-47D" />
+    <Interface TypeIdentifier="Helios.DCSInterfaceFile" Name="DCS P-47D">
+      <ImpersonatedVehicleName>DCS P-47D</ImpersonatedVehicleName>
+    </Interface>
     <Interface TypeIdentifier="Patching.DCS.MonitorSetup" Name="DCS Monitor Setup" />
     <Interface TypeIdentifier="Helios.Base.HeliosInformation" Name="Helios Information" />
   </Interfaces>
@@ -6728,12 +6730,12 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gun Sight.Target Range Selector.changed" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40.Range Selector Wheel;Helios.Base.CustomDrum;Range Selector Wheel" Name="set.Drum tape offset" />
+      <Action Target="Visual;Monitor 1.M14 Gunsight Panel.Range Selector Wheel;Helios.Base.CustomDrum;Range Selector Wheel" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gun Sight.Wing Span Selector.changed" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40.Wingspan Selector Indicator;Helios.Base.CustomGauge;Wingspan Selector Indicator" Name="set.value" />
+      <Action Target="Visual;Monitor 1.M14 Gunsight Panel.Wingspan Selector Indicator;Helios.Base.CustomGauge;Wingspan Selector Indicator" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -7617,23 +7619,23 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Gunsight 30-40.Wingspan Indicator Swipe Area;Helios.Base.PotentiometerWithTranslate;Wingspan Indicator Swipe Area" Name="value Translation X.changed" />
+      <Trigger Source="Visual;Monitor 1.M14 Gunsight Panel.Wingspan Indicator Swipe Area;Helios.Base.PotentiometerWithTranslate;Wingspan Indicator Swipe Area" Name="value Translation X.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gun Sight.set.Wing Span Selector" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Gunsight 30-40.Wingspan Indicator Swipe Area;Helios.Base.PotentiometerWithTranslate;Wingspan Indicator Swipe Area" Name="value Translation X.changed" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40.Wingspan Selector Indicator;Helios.Base.CustomGauge;Wingspan Selector Indicator" Name="set.value" />
+      <Trigger Source="Visual;Monitor 1.M14 Gunsight Panel.Wingspan Indicator Swipe Area;Helios.Base.PotentiometerWithTranslate;Wingspan Indicator Swipe Area" Name="value Translation X.changed" />
+      <Action Target="Visual;Monitor 1.M14 Gunsight Panel.Wingspan Selector Indicator;Helios.Base.CustomGauge;Wingspan Selector Indicator" Name="set.value" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Gunsight 30-40.Range Selector Swipe Area;Helios.Base.PotentiometerWithTranslate;Range Selector Swipe Area" Name="value Translation Y.changed" />
+      <Trigger Source="Visual;Monitor 1.M14 Gunsight Panel.Range Selector Swipe Area;Helios.Base.PotentiometerWithTranslate;Range Selector Swipe Area" Name="value Translation Y.changed" />
       <Action Target="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gun Sight.set.Target Range Selector" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Gunsight 30-40.Range Selector Swipe Area;Helios.Base.PotentiometerWithTranslate;Range Selector Swipe Area" Name="value Translation Y.changed" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40.Range Selector Wheel;Helios.Base.CustomDrum;Range Selector Wheel" Name="set.Drum tape offset" />
+      <Trigger Source="Visual;Monitor 1.M14 Gunsight Panel.Range Selector Swipe Area;Helios.Base.PotentiometerWithTranslate;Range Selector Swipe Area" Name="value Translation Y.changed" />
+      <Action Target="Visual;Monitor 1.M14 Gunsight Panel.Range Selector Wheel;Helios.Base.CustomDrum;Range Selector Wheel" Name="set.Drum tape offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -8707,12 +8709,12 @@
       <StaticValue>true/</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="position one.entered" />
+      <Trigger Source="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="position one.entered" />
       <Action Target="Visual;Monitor 1.Weapon Control Panel -30;Helios.Panel;Weapon Control Panel -30" Name="set.hidden" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="position two.entered" />
+      <Trigger Source="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="position two.entered" />
       <Action Target="Visual;Monitor 1.Weapon Control Panel -30;Helios.Panel;Weapon Control Panel -30" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
@@ -8853,7 +8855,7 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Panel reset SW -30-40;Helios.Base.PushButton;Panel reset SW -30-40" Name="pushed" />
-      <Action Target="Visual;Monitor 1.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="set.position" />
+      <Action Target="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="set.position" />
       <StaticValue>2</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -8904,7 +8906,7 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.F6 Button;Helios.Base.PushButton;F6 Button" Name="released" />
       <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>F2</StaticValue>
+      <StaticValue>{F2}</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Briefing Button;Helios.Base.PushButton;Briefing Button" Name="released" />
@@ -8938,13 +8940,8 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
-      <Action Target="Visual;Monitor 1.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="set.hidden" />
+      <Action Target="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="set.hidden" />
       <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.exited" />
-      <Action Target="Visual;Monitor 1.Weapon switch;Helios.Base.ToggleSwitch;Weapon switch" Name="set.hidden" />
-      <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
@@ -8978,13 +8975,8 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40;Helios.Panel;Gunsight 30-40" Name="set.hidden" />
+      <Action Target="Visual;Monitor 1.M14 Gunsight Panel;Helios.Panel;M14 Gunsight Panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.exited" />
-      <Action Target="Visual;Monitor 1.Gunsight 30-40;Helios.Panel;Gunsight 30-40" Name="set.hidden" />
-      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
@@ -8992,7 +8984,32 @@
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.exited" />
+      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 1.entered" />
+      <Action Target="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
+      <Action Target="Visual;Monitor 1.MK8 Gunsight Panel;Helios.Panel;MK8 Gunsight Panel" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 2.entered" />
+      <Action Target="Visual;Monitor 1.M14 Gunsight Panel;Helios.Panel;M14 Gunsight Panel" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
+      <Action Target="Visual;Monitor 1.M14 Gunsight Panel;Helios.Panel;M14 Gunsight Panel" Name="set.hidden" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
+      <Action Target="Visual;Monitor 1.Weapon -30 SW;Helios.Base.ToggleSwitch;Weapon -30 SW" Name="set.hidden" />
+      <StaticValue>true</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 1.Vairiant Select;Helios.Base.RotarySwitch;Vairiant Select" Name="position 3.entered" />
       <Action Target="Visual;Monitor 1.MK8 Gunsight Panel;Helios.Panel;MK8 Gunsight Panel" Name="set.hidden" />
       <StaticValue>true</StaticValue>
     </Binding>
