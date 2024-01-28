@@ -2396,7 +2396,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="Mixture lever" SnapTarget="True" Locked="True">
-              <Location>85,8</Location>
+              <Location>85,10</Location>
               <Size>44,184</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37/P-47D/Button_Switches_Knobs/Mixture_Lever.png</TapeImage>
@@ -2432,7 +2432,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="Prop Lever" SnapTarget="True" Locked="True">
-              <Location>53,8</Location>
+              <Location>53,11</Location>
               <Size>32,184</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37/P-47D/Button_Switches_Knobs/Prop_Lever.png</TapeImage>
@@ -2452,8 +2452,8 @@
               <OffFlag_IsHidden>False</OffFlag_IsHidden>
               <MinHorizontal>0</MinHorizontal>
               <HorizontalTravel>0</HorizontalTravel>
-              <MinVertical>165</MinVertical>
-              <VerticalTravel>0</VerticalTravel>
+              <MinVertical>170</MinVertical>
+              <VerticalTravel>1</VerticalTravel>
               <MinRotation>0</MinRotation>
               <RotationTravel>0</RotationTravel>
               <InitialHorizontal>0</InitialHorizontal>
@@ -2468,7 +2468,7 @@
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.CustomTape" Name="Boost Lever" SnapTarget="True" Locked="True">
-              <Location>10,3</Location>
+              <Location>10,11</Location>
               <Size>28,183</Size>
               <Hidden>False</Hidden>
               <TapeImage>MadKreator37/P-47D/Button_Switches_Knobs/Boost_Lever.png</TapeImage>
@@ -2488,8 +2488,8 @@
               <OffFlag_IsHidden>False</OffFlag_IsHidden>
               <MinHorizontal>0</MinHorizontal>
               <HorizontalTravel>0</HorizontalTravel>
-              <MinVertical>165</MinVertical>
-              <VerticalTravel>3</VerticalTravel>
+              <MinVertical>169</MinVertical>
+              <VerticalTravel>1</VerticalTravel>
               <MinRotation>0</MinRotation>
               <RotationTravel>0</RotationTravel>
               <InitialHorizontal>14</InitialHorizontal>
@@ -2729,6 +2729,42 @@
                   <Children />
                 </Control>
               </Children>
+            </Control>
+            <Control TypeIdentifier="Helios.Base.CustomTape" Name="Throttle Handle " SnapTarget="True" Locked="True">
+              <Location>38,12</Location>
+              <Size>13,182</Size>
+              <Hidden>False</Hidden>
+              <TapeImage>MadKreator37\P-47D\Bezels_And_Faces\Throttle_Handle.png</TapeImage>
+              <OffFlagImage />
+              <ForegroundImage />
+              <BackgroundImage />
+              <Tape_PosX>0</Tape_PosX>
+              <Tape_PosY>0</Tape_PosY>
+              <Tape_Width>150</Tape_Width>
+              <Tape_Height>20</Tape_Height>
+              <Tape_CenterX>100</Tape_CenterX>
+              <Tape_CenterY>100</Tape_CenterY>
+              <OffFlag_PosX>30</OffFlag_PosX>
+              <OffFlag_PosY>30</OffFlag_PosY>
+              <OffFlag_Width>50</OffFlag_Width>
+              <OffFlag_Height>50</OffFlag_Height>
+              <OffFlag_IsHidden>False</OffFlag_IsHidden>
+              <MinHorizontal>0</MinHorizontal>
+              <HorizontalTravel>0</HorizontalTravel>
+              <MinVertical>174</MinVertical>
+              <VerticalTravel>3</VerticalTravel>
+              <MinRotation>0</MinRotation>
+              <RotationTravel>0</RotationTravel>
+              <InitialHorizontal>35</InitialHorizontal>
+              <InitialVertical>85</InitialVertical>
+              <InitialRotation>0</InitialRotation>
+              <MinInputHorizontal>0</MinInputHorizontal>
+              <MaxInputHorizontal>1</MaxInputHorizontal>
+              <MinInputVertical>0</MinInputVertical>
+              <MaxInputVertical>1</MaxInputVertical>
+              <MinInputRotation>0</MinInputRotation>
+              <MaxInputRotation>1</MaxInputRotation>
+              <Children />
             </Control>
           </Children>
         </Control>
@@ -5787,6 +5823,51 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
+                <Control TypeIdentifier="Helios.Base.Image" Name="Throttle Handle Image" SnapTarget="False" Locked="True">
+                  <Image>MadKreator37/P-47D/Bezels_And_Faces/Throttle_Handle.png</Image>
+                  <Alignment>Stretched</Alignment>
+                  <CornerRadius>0</CornerRadius>
+                  <Location>0,398</Location>
+                  <Size>211,70</Size>
+                  <Hidden>False</Hidden>
+                  <Children />
+                </Control>
+                <Control TypeIdentifier="Helios.Base.CustomTape" Name="Throttle Handle Indicator" SnapTarget="True" Locked="True">
+                  <Location>69,61</Location>
+                  <Size>25,312</Size>
+                  <Hidden>False</Hidden>
+                  <TapeImage>MadKreator37\P-47D\Bezels_And_Faces\Throttle_Handle.png</TapeImage>
+                  <OffFlagImage />
+                  <ForegroundImage />
+                  <BackgroundImage />
+                  <Tape_PosX>0</Tape_PosX>
+                  <Tape_PosY>0</Tape_PosY>
+                  <Tape_Width>175</Tape_Width>
+                  <Tape_Height>20</Tape_Height>
+                  <Tape_CenterX>100</Tape_CenterX>
+                  <Tape_CenterY>100</Tape_CenterY>
+                  <OffFlag_PosX>30</OffFlag_PosX>
+                  <OffFlag_PosY>30</OffFlag_PosY>
+                  <OffFlag_Width>50</OffFlag_Width>
+                  <OffFlag_Height>50</OffFlag_Height>
+                  <OffFlag_IsHidden>False</OffFlag_IsHidden>
+                  <MinHorizontal>0</MinHorizontal>
+                  <HorizontalTravel>0</HorizontalTravel>
+                  <MinVertical>174</MinVertical>
+                  <VerticalTravel>-3</VerticalTravel>
+                  <MinRotation>0</MinRotation>
+                  <RotationTravel>0</RotationTravel>
+                  <InitialHorizontal>5</InitialHorizontal>
+                  <InitialVertical>85</InitialVertical>
+                  <InitialRotation>0</InitialRotation>
+                  <MinInputHorizontal>0</MinInputHorizontal>
+                  <MaxInputHorizontal>1</MaxInputHorizontal>
+                  <MinInputVertical>0</MinInputVertical>
+                  <MaxInputVertical>1</MaxInputVertical>
+                  <MinInputRotation>0</MinInputRotation>
+                  <MaxInputRotation>1</MaxInputRotation>
+                  <Children />
+                </Control>
                 <Control TypeIdentifier="Helios.Base.CustomTape" Name="Mixture lever" SnapTarget="True" Locked="True">
                   <Location>151,45</Location>
                   <Size>72,344</Size>
@@ -5824,7 +5905,7 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.CustomTape" Name="Prop Lever" SnapTarget="True" Locked="True">
-                  <Location>94,45</Location>
+                  <Location>93,45</Location>
                   <Size>66,344</Size>
                   <Hidden>False</Hidden>
                   <TapeImage>MadKreator37/P-47D/Button_Switches_Knobs/Prop_Lever.png</TapeImage>
@@ -5844,12 +5925,12 @@
                   <OffFlag_IsHidden>False</OffFlag_IsHidden>
                   <MinHorizontal>0</MinHorizontal>
                   <HorizontalTravel>0</HorizontalTravel>
-                  <MinVertical>165</MinVertical>
-                  <VerticalTravel>1</VerticalTravel>
+                  <MinVertical>164</MinVertical>
+                  <VerticalTravel>2</VerticalTravel>
                   <MinRotation>0</MinRotation>
                   <RotationTravel>0</RotationTravel>
                   <InitialHorizontal>0</InitialHorizontal>
-                  <InitialVertical>81</InitialVertical>
+                  <InitialVertical>82</InitialVertical>
                   <InitialRotation>0</InitialRotation>
                   <MinInputHorizontal>0</MinInputHorizontal>
                   <MaxInputHorizontal>1</MaxInputHorizontal>
@@ -5881,7 +5962,7 @@
                   <MinHorizontal>0</MinHorizontal>
                   <HorizontalTravel>0</HorizontalTravel>
                   <MinVertical>165</MinVertical>
-                  <VerticalTravel>2</VerticalTravel>
+                  <VerticalTravel>3</VerticalTravel>
                   <MinRotation>0</MinRotation>
                   <RotationTravel>0</RotationTravel>
                   <InitialHorizontal>14</InitialHorizontal>
@@ -5995,15 +6076,6 @@
                     <Type>Swipe</Type>
                     <Sensitivity>1</Sensitivity>
                   </ClickType>
-                  <Children />
-                </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Throttle Handle" SnapTarget="False" Locked="True">
-                  <Image>MadKreator37/P-47D/Bezels_And_Faces/Throttle_Handle.png</Image>
-                  <Alignment>Stretched</Alignment>
-                  <CornerRadius>0</CornerRadius>
-                  <Location>0,398</Location>
-                  <Size>211,70</Size>
-                  <Hidden>False</Hidden>
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.PushButton" Name="NOS" SnapTarget="True" Locked="True">
@@ -8034,6 +8106,16 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Elevator Trim Wheel.changed" />
       <Action Target="Visual;Monitor 2.Indicators panel.Trimmer Panel.Elev trim ind;Helios.Base.CustomGauge;Elev trim ind" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Throttle Lever.changed" />
+      <Action Target="Visual;Monitor 2.Flight Panel.Throttle Quad.Throttle Handle Indicator;Helios.Base.CustomTape;Throttle Handle Indicator" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Throttle Lever.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Throttle Handle ;Helios.Base.CustomTape;Throttle Handle " Name="set.Tape Vertical Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
