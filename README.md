@@ -37,7 +37,9 @@ or
 MadKreator37  [Discord](https://discord.gg/nzyfQr3K)
 
 ### Known Bugs and Issues
-Artificial Horizon Zeroing: not fully working as intended
+- Artificial Horizon Zeroing: not fully working as intended
+- On-screen Throttle Quadrant controls are a bit finicky
+- Fuel Primer knob rotation can act up and input doesn't function
 
 
 ### Notes
