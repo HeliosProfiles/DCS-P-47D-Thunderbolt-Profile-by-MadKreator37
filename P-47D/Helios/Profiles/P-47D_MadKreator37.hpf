@@ -7068,7 +7068,7 @@
                   <Bottom>0</Bottom>
                 </Padding>
               </Font>
-              <Text>Version:  _ProfileVersionNumber</Text>
+              <Text>Version: _ProfileVersionNumber</Text>
               <ScalingMode>Height</ScalingMode>
               <Location>644,510</Location>
               <Size>538,87</Size>
@@ -7093,7 +7093,7 @@
                   <Bottom>0</Bottom>
                 </Padding>
               </Font>
-              <Text>Date:  _CurrentDate</Text>
+              <Text>Date: _BuildDate</Text>
               <ScalingMode>Height</ScalingMode>
               <Location>644,597</Location>
               <Size>538,87</Size>
