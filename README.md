@@ -14,7 +14,7 @@ This Profile cotains all three variants (-30, -30bl1 and -40) and their respecti
 
 *NOTE* The added functions: F1, F10, F2, Esc, Rearm, Briefing, Kneeboard and Markpoint are made with an English Keyboard format and require the default DCS keybindings for them to work properly. If you have altered any of these or are using a non-english keyboard, then some functions may not work as intended. You may have to bind them to the correct actions in the Keyboard Interface.
 
-*Special thanks to Bluefin for his contributions and assistance with the vaiant impersonation, json and lua interface modifications and Github help, as always*
+*Special thanks to Bluefin for his contributions and assistance with the vaiant impersonation, json and lua interface modifications and Github help, as always!*
 
 ### IMAGES
 
