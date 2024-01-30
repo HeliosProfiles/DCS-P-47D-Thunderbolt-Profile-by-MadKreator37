@@ -2266,8 +2266,8 @@
               <OffFlag_IsHidden>False</OffFlag_IsHidden>
               <MinHorizontal>0</MinHorizontal>
               <HorizontalTravel>0</HorizontalTravel>
-              <MinVertical>165</MinVertical>
-              <VerticalTravel>18</VerticalTravel>
+              <MinVertical>162</MinVertical>
+              <VerticalTravel>20</VerticalTravel>
               <MinRotation>-180</MinRotation>
               <RotationTravel>180</RotationTravel>
               <InitialHorizontal>25</InitialHorizontal>
@@ -3726,7 +3726,7 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Panel" Name="Electronics Panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel" Name="Electronics Panel" SnapTarget="True" Locked="True">
               <Location>5,11</Location>
               <Size>455,497</Size>
               <Hidden>False</Hidden>
@@ -3737,7 +3737,7 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <Children>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Base" SnapTarget="False" Locked="False">
+                <Control TypeIdentifier="Helios.Base.Image" Name="Base" SnapTarget="False" Locked="True">
                   <Image>MadKreator37/P-47D/Bezels_And_Faces/Elecctronics_Panel.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -3746,7 +3746,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Gunsight KNob" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Gunsight KNob" SnapTarget="True" Locked="True">
                   <Location>88,26</Location>
                   <Size>50,127</Size>
                   <Hidden>False</Hidden>
@@ -3763,7 +3763,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Compass Lt Knob" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Compass Lt Knob" SnapTarget="True" Locked="True">
                   <Location>240,10</Location>
                   <Size>50,127</Size>
                   <Hidden>False</Hidden>
@@ -3780,7 +3780,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Instrumen t Knob" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Instrumen t Knob" SnapTarget="True" Locked="True">
                   <Location>365,10</Location>
                   <Size>50,127</Size>
                   <Hidden>False</Hidden>
@@ -3790,14 +3790,14 @@
                   <MaxValue>1</MaxValue>
                   <MinValue>0</MinValue>
                   <InitialRotation>226.148296356993</InitialRotation>
-                  <RotationTravel>222.827633196204</RotationTravel>
+                  <RotationTravel>222.827633196205</RotationTravel>
                   <ClickType>
                     <Type>Swipe</Type>
                     <Sensitivity>1</Sensitivity>
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Fuel Booster Knob" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Fuel Booster Knob" SnapTarget="True" Locked="True">
                   <Location>88,195</Location>
                   <Size>55,150</Size>
                   <Hidden>False</Hidden>
@@ -3814,7 +3814,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gen Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Gen Sw" SnapTarget="True" Locked="True">
                   <Location>42,385</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3826,7 +3826,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Pitot Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Pitot Sw" SnapTarget="True" Locked="True">
                   <Location>92,385</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3838,7 +3838,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Oil Dil Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Oil Dil Sw" SnapTarget="True" Locked="True">
                   <Location>140,385</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3850,7 +3850,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Wing Light Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Wing Light Sw" SnapTarget="True" Locked="True">
                   <Location>210,175</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3863,7 +3863,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Land Light Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Land Light Sw" SnapTarget="True" Locked="True">
                   <Location>308,175</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3876,7 +3876,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Cockpit Light Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Cockpit Light Sw" SnapTarget="True" Locked="True">
                   <Location>363,175</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3889,7 +3889,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Tail Light Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Tail Light Sw" SnapTarget="True" Locked="True">
                   <Location>263,175</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3902,7 +3902,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="LG FL Test Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="LG FL Test Sw" SnapTarget="True" Locked="True">
                   <Location>210,302</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3915,7 +3915,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Oxy Turb Test Sw" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Oxy Turb Test Sw" SnapTarget="True" Locked="True">
                   <Location>268,302</Location>
                   <Size>42,82</Size>
                   <Hidden>False</Hidden>
@@ -3930,7 +3930,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Recog Light Panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel" Name="Recog Light Panel" SnapTarget="True" Locked="True">
               <Location>460,11</Location>
               <Size>267,383</Size>
               <Hidden>False</Hidden>
@@ -4058,7 +4058,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Gunsight switch panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel" Name="Gunsight switch panel" SnapTarget="True" Locked="True">
               <Location>331,359</Location>
               <Size>130,171</Size>
               <Hidden>False</Hidden>
@@ -4089,7 +4089,7 @@
                   <Children />
                 </Control>
                 <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="GS Switch" SnapTarget="True" Locked="True">
-                  <Location>75,20</Location>
+                  <Location>73,20</Location>
                   <Size>38,80</Size>
                   <Hidden>False</Hidden>
                   <SwitchType>OnOnOn</SwitchType>
@@ -4103,7 +4103,7 @@
                 </Control>
                 <Control TypeIdentifier="Helios.Base.GuardedSwitch" Name="Guard " SnapTarget="True" Locked="True">
                   <Location>68,0</Location>
-                  <Size>43,160</Size>
+                  <Size>48,160</Size>
                   <Rotation>ROT180</Rotation>
                   <Hidden>False</Hidden>
                   <SwitchType>OnOn</SwitchType>
@@ -7303,11 +7303,6 @@
       <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Rotation" />
       <TriggerValue />
     </Binding>
-    <Binding BypassCascadingTriggers="False">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Artificial Horizon - Pitch.changed" />
-      <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Main Panel.Artificial Horizon Pitch Adjustment.changed" />
       <Action Target="Visual;Monitor 2.ADI Panel.AH Zero Knob;Helios.Base.Potentiometer;AH Zero Knob" Name="set.value" />
@@ -8064,11 +8059,6 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Artificial Horizon - Zero.changed" />
-      <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Mixture Lever.changed" />
       <Action Target="Visual;Monitor 2.Indicators panel.Mixture lever;Helios.Base.CustomTape;Mixture lever" Name="set.Tape Vertical Offset" />
       <TriggerValue />
@@ -8116,6 +8106,16 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Throttle Lever.changed" />
       <Action Target="Visual;Monitor 2.Indicators panel.Throttle Handle ;Helios.Base.CustomTape;Throttle Handle " Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Artificial Horizon - Pitch.changed" />
+      <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Artificial Horizon - Zero.changed" />
+      <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Vertical Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
