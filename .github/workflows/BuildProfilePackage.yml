@@ -82,6 +82,7 @@ jobs:
           sed -i -- 's#_ProfileVersionNumber#'"V ${{ steps.bump_tag.outputs.tag }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
           sed -i -- 's#_BuildDate#'"$(date "+%d %b %Y")"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
           sed -i -- 's#_Vehicle#'"${{ env.VEHICLE }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
+          sed -i -- 's#_Author#'"${{ env.AUTHOR }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
           sed -i -- 's#_CurrentDate#'"${{ steps.vars.outputs.date }}"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
           sed -i -- 's#_Repository#'"${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases"'#g' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_'${{ env.AUTHOR }}'.hpf'
           mv '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ env.AUTHOR }}.hpf' '${{ env.VEHICLE }}/Helios/Profiles/P-47D_${{ steps.bump_tag.outputs.tag }}_${{ env.AUTHOR }}.hpf'
