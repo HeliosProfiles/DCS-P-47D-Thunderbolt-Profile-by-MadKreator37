@@ -7048,7 +7048,7 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <TimerEnabled>True</TimerEnabled>
-          <TimerInterval>3</TimerInterval>
+          <TimerInterval>5</TimerInterval>
           <Children>
             <Control TypeIdentifier="Helios.Base.Text" Name="Label" SnapTarget="True" Locked="False">
               <FillBackground>False</FillBackground>
@@ -7093,7 +7093,7 @@
                   <Bottom>0</Bottom>
                 </Padding>
               </Font>
-              <Text>Date:  _ReleaseDate</Text>
+              <Text>Date:  _CurrentDate</Text>
               <ScalingMode>Height</ScalingMode>
               <Location>644,597</Location>
               <Size>538,87</Size>
@@ -7108,8 +7108,8 @@
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
                 <FontWeight>Normal</FontWeight>
-                <FontSize>59.3181818181818</FontSize>
-                <HorizontalAlignment>Left</HorizontalAlignment>
+                <FontSize>81.1363636363636</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
                   <Left>0</Left>
@@ -7118,10 +7118,10 @@
                   <Bottom>0</Bottom>
                 </Padding>
               </Font>
-              <Text>By:  _Author</Text>
+              <Text>By _Author</Text>
               <ScalingMode>Height</ScalingMode>
-              <Location>644,728</Location>
-              <Size>538,87</Size>
+              <Location>597,727</Location>
+              <Size>597,119</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
