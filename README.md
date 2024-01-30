@@ -10,9 +10,11 @@ You *MUST* be running Helios 1.6.606 minimum. Please visit the link above to dow
 ### ABOUT
 This profile was designed and created by MadKreator37. All parts were cut and modified from the 3D model of the P-47D cockpit. Every piece used is specific to the P-47D.  The hope is to bring you a complete, easy to use profile that is also easily pulled apart into its individual components for use on multiple Helios screens. 
 
-This Profile cotains all three variants (-30, -30bl1 and -40) and their respective systems, all in the same profile. 
+This Profile cotains all three variants (-30, -30bl1 and -40) and their respective systems all in the same profile. The profile will switch automatically depending which variant you start to fly. 
 
 *NOTE* The added functions: F1, F10, F2, Esc, Rearm, Briefing, Kneeboard and Markpoint are made with an English Keyboard format and require the default DCS keybindings for them to work properly. If you have altered any of these or are using a non-english keyboard, then some functions may not work as intended. You may have to bind them to the correct actions in the Keyboard Interface.
+
+*Special thanks to Bluefin for his contributions and assistance with the vaiant impersonation, json and lua interface modifications and Github help, as always*
 
 ### IMAGES
 
