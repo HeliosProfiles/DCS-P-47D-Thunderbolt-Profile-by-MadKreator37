@@ -7050,65 +7050,15 @@
           <TimerEnabled>True</TimerEnabled>
           <TimerInterval>5</TimerInterval>
           <Children>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Label" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Label" SnapTarget="True" Locked="True">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
-              <FontColor>#FF831832</FontColor>
+              <FontColor>#FF1C1F33</FontColor>
               <Font>
                 <FontFamily>Franklin Gothic</FontFamily>
                 <FontStyle>Normal</FontStyle>
-                <FontWeight>Normal</FontWeight>
-                <FontSize>59.3181818181818</FontSize>
-                <HorizontalAlignment>Left</HorizontalAlignment>
-                <VerticalAlignment>Center</VerticalAlignment>
-                <Padding>
-                  <Left>0</Left>
-                  <Top>0</Top>
-                  <Right>0</Right>
-                  <Bottom>0</Bottom>
-                </Padding>
-              </Font>
-              <Text>Version: _ProfileVersionNumber</Text>
-              <ScalingMode>Height</ScalingMode>
-              <Location>644,510</Location>
-              <Size>538,87</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Label 1" SnapTarget="True" Locked="False">
-              <FillBackground>False</FillBackground>
-              <BackgroundColor>#FF1E1E1E</BackgroundColor>
-              <FontColor>#FF831832</FontColor>
-              <Font>
-                <FontFamily>Franklin Gothic</FontFamily>
-                <FontStyle>Normal</FontStyle>
-                <FontWeight>Normal</FontWeight>
-                <FontSize>59.3181818181818</FontSize>
-                <HorizontalAlignment>Left</HorizontalAlignment>
-                <VerticalAlignment>Center</VerticalAlignment>
-                <Padding>
-                  <Left>0</Left>
-                  <Top>0</Top>
-                  <Right>0</Right>
-                  <Bottom>0</Bottom>
-                </Padding>
-              </Font>
-              <Text>Date: _BuildDate</Text>
-              <ScalingMode>Height</ScalingMode>
-              <Location>644,597</Location>
-              <Size>538,87</Size>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Label 1 1" SnapTarget="True" Locked="False">
-              <FillBackground>False</FillBackground>
-              <BackgroundColor>#FF1E1E1E</BackgroundColor>
-              <FontColor>#FF831832</FontColor>
-              <Font>
-                <FontFamily>Franklin Gothic</FontFamily>
-                <FontStyle>Normal</FontStyle>
-                <FontWeight>Normal</FontWeight>
-                <FontSize>70</FontSize>
+                <FontWeight>Black</FontWeight>
+                <FontSize>54.5454545454545</FontSize>
                 <HorizontalAlignment>Center</HorizontalAlignment>
                 <VerticalAlignment>Center</VerticalAlignment>
                 <Padding>
@@ -7118,10 +7068,60 @@
                   <Bottom>0</Bottom>
                 </Padding>
               </Font>
-              <Text>By _Author</Text>
+              <Text>Version: 1.0.0</Text>
               <ScalingMode>Height</ScalingMode>
-              <Location>597,727</Location>
-              <Size>597,119</Size>
+              <Location>640,739</Location>
+              <Size>498,80</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="Label 1" SnapTarget="True" Locked="True">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FF1C1F33</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Black</FontWeight>
+                <FontSize>51.8181818181818</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Center</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>Date: 30 Jan 2024</Text>
+              <ScalingMode>Height</ScalingMode>
+              <Location>642,813</Location>
+              <Size>485,76</Size>
+              <Hidden>False</Hidden>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.Text" Name="Label 1 1" SnapTarget="True" Locked="True">
+              <FillBackground>False</FillBackground>
+              <BackgroundColor>#FF1E1E1E</BackgroundColor>
+              <FontColor>#FF1C1F33</FontColor>
+              <Font>
+                <FontFamily>Franklin Gothic</FontFamily>
+                <FontStyle>Normal</FontStyle>
+                <FontWeight>Black</FontWeight>
+                <FontSize>56.4705882352941</FontSize>
+                <HorizontalAlignment>Center</HorizontalAlignment>
+                <VerticalAlignment>Center</VerticalAlignment>
+                <Padding>
+                  <Left>0</Left>
+                  <Top>0</Top>
+                  <Right>0</Right>
+                  <Bottom>0</Bottom>
+                </Padding>
+              </Font>
+              <Text>MadKreator37</Text>
+              <ScalingMode>Height</ScalingMode>
+              <Location>74,819</Location>
+              <Size>481,96</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
@@ -7397,6 +7397,16 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Artificial Horizon - Pitch.changed" />
+      <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Artificial Horizon - Zero.changed" />
+      <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Main Panel.Artificial Horizon Pitch Adjustment.changed" />
       <Action Target="Visual;Monitor 2.ADI Panel.AH Zero Knob;Helios.Base.Potentiometer;AH Zero Knob" Name="set.value" />
       <TriggerValue />
@@ -7409,6 +7419,51 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Main Panel.Battery Switch.changed" />
       <Action Target="Visual;Monitor 2.Battery Switch;Helios.Base.ToggleSwitch;Battery Switch" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Mixture Lever.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Mixture lever;Helios.Base.CustomTape;Mixture lever" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Propeller RPM Lever.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Prop Lever;Helios.Base.CustomTape;Prop Lever" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Boost Lever.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Boost Lever;Helios.Base.CustomTape;Boost Lever" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Oil Cooler Flap Position.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Oil_Intercooler Shutter Panel.Oilcooler Marker;Helios.Base.CustomTape;Oilcooler Marker" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Intercooler Flap Position.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Oil_Intercooler Shutter Panel.Intercooler Marker;Helios.Base.CustomTape;Intercooler Marker" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Rudder Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Trimmer Panel.Rud trim ind;Helios.Base.CustomTape;Rud trim ind" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Aileron Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Trimmer Panel.Ailr trim ind;Helios.Base.CustomTape;Ailr trim ind" Name="set.Tape Horizontal Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Elevator Trim Wheel.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Trimmer Panel.Elev trim ind;Helios.Base.CustomGauge;Elev trim ind" Name="set.value" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Throttle Lever.changed" />
+      <Action Target="Visual;Monitor 2.Indicators panel.Throttle Handle ;Helios.Base.CustomTape;Throttle Handle " Name="set.Tape Vertical Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -8092,6 +8147,11 @@
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Throttle Lever.changed" />
+      <Action Target="Visual;Monitor 2.Flight Panel.Throttle Quad.Throttle Handle Indicator;Helios.Base.CustomTape;Throttle Handle Indicator" Name="set.Tape Vertical Offset" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Mixture Lever.changed" />
       <Action Target="Visual;Monitor 2.Flight Panel.Throttle Quad.Mixture lever;Helios.Base.CustomTape;Mixture lever" Name="set.Tape Vertical Offset" />
       <TriggerValue />
@@ -8149,66 +8209,6 @@
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Elevator Trim Wheel.changed" />
       <Action Target="Visual;Monitor 2.Flight Panel.Trimmer Panel.Elev trim ind;Helios.Base.CustomGauge;Elev trim ind" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Mixture Lever.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Mixture lever;Helios.Base.CustomTape;Mixture lever" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Propeller RPM Lever.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Prop Lever;Helios.Base.CustomTape;Prop Lever" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Boost Lever.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Boost Lever;Helios.Base.CustomTape;Boost Lever" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Oil Cooler Flap Position.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Oil_Intercooler Shutter Panel.Oilcooler Marker;Helios.Base.CustomTape;Oilcooler Marker" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Intercooler Flap Position.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Oil_Intercooler Shutter Panel.Intercooler Marker;Helios.Base.CustomTape;Intercooler Marker" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Rudder Trim Wheel.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Trimmer Panel.Rud trim ind;Helios.Base.CustomTape;Rud trim ind" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Aileron Trim Wheel.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Trimmer Panel.Ailr trim ind;Helios.Base.CustomTape;Ailr trim ind" Name="set.Tape Horizontal Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Trim Control.Elevator Trim Wheel.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Trimmer Panel.Elev trim ind;Helios.Base.CustomGauge;Elev trim ind" Name="set.value" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Throttle Lever.changed" />
-      <Action Target="Visual;Monitor 2.Flight Panel.Throttle Quad.Throttle Handle Indicator;Helios.Base.CustomTape;Throttle Handle Indicator" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Throttle Quadrant.Throttle Lever.changed" />
-      <Action Target="Visual;Monitor 2.Indicators panel.Throttle Handle ;Helios.Base.CustomTape;Throttle Handle " Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Artificial Horizon - Pitch.changed" />
-      <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Vertical Offset" />
-      <TriggerValue />
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.DCSInterfaceFile;DCS P-47D" Name="Gauges.Artificial Horizon - Zero.changed" />
-      <Action Target="Visual;Monitor 2.ADI Panel.Horizon Line;Helios.Base.CustomTape;Horizon Line" Name="set.Tape Vertical Offset" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="False">
