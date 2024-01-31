@@ -7034,7 +7034,7 @@
           </ClickType>
           <Children />
         </Control>
-        <Control TypeIdentifier="Helios.Panel.Timer" Name="Panel" SnapTarget="True" Locked="False">
+        <Control TypeIdentifier="Helios.Panel.Timer" Name="Splash Panel" SnapTarget="True" Locked="False">
           <Location>358,80</Location>
           <Size>1204,920</Size>
           <Hidden>False</Hidden>
